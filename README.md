@@ -4,6 +4,8 @@
 
 **I originally made this to serve as a roadmap for me to follow; but I then thought, why not make it publicly viewable? Anyways, hope you have fun with this repo!**
 
+**PS: This is targeted at individuals that already understand basic programming concepts and things like version control.**
+
 ## Topics of Study
 
 - [Statistics](#statistics)
@@ -11,11 +13,12 @@
 - [Calculus](#calculus)
 - [Programming](#programming)
 - [Data Preprocessing](#data-preprocessing)
-- [Machine Learning Pt.1: Fundamentals](#machine-learning-pt.1:-fundamentals)
-- [Machine Learning Pt.2: Algorithms](#machine-learning-pt.2:-algorithms)
+- [Machine Learning Pt.1: Fundamentals](#machine-learning-pt1-fundamentals)
+- [Machine Learning Pt.2: Algorithms](#machine-learning-pt2-algorithms)
 - [Model Evaluation and Validation](#model-evaluation-and-validation)
 - [Deep Learning](#deep-learning)
 - [Natural Language Processing (NLP)](#natural-language-processing-(nlp))
+- [Computer Vision (CV)](#computer-vision-(cv))
 - [Deployment](#deployment)
 
 ---
