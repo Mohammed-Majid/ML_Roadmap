@@ -17,8 +17,8 @@
 - [Machine Learning Pt.2: Algorithms](#machine-learning-pt2-algorithms)
 - [Model Evaluation and Validation](#model-evaluation-and-validation)
 - [Deep Learning](#deep-learning)
-- [Natural Language Processing (NLP)](#natural-language-processing-(nlp))
-- [Computer Vision (CV)](#computer-vision-(cv))
+- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
+- [Computer Vision (CV)](#computer-vision-cv)
 - [Deployment](#deployment)
 
 ---
