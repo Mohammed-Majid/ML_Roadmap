@@ -156,6 +156,25 @@ As the name suggests, this part focuses on technologies that deal with natural l
 
 ---
 
+## Computer Vision (CV)
+
+As the name suggests, this part focuses on technologies that deal with visual data (primarily images and video).
+
+- **Image Preprocessing**: Resizing, Normalization, Augmentation, Noise Reduction
+- **Feature Extraction**: Edge Detection, Histograms of Oriented Gradients (HOG), Keypoints and Descriptors (SIFT, SURF)
+- **Image Representation**: Convolutional Neural Networks (CNNs), Transfer Learning, Feature Maps
+- **CV Models**: Object Detection (YOLO, Faster R-CNN), Image Classification (ResNet, VGG), Image Segmentation (U-Net, Mask R-CNN), Image Generation (GANs, VAEs), Stable Diffusion
+- **Model Optimization**: Quantization, Pruning, Knowledge Distillation, Hyperparameter Tuning
+- **Specialized Techniques**: Transfer Learning, Few-Shot Learning, Style Transfer, Image Super-Resolution, Zero-Shot Learning
+- **Advanced Topics**:
+  - **3D Vision**: Depth Estimation, 3D Reconstruction, and Stereo Vision.
+  - **Video Analysis**: Action Recognition, Object Tracking, Video Segmentation.
+- **Working with APIs and Tools**: OpenCV, TensorFlow, PyTorch, Pre-trained Models, Deployment (ONNX, TensorRT)
+
+📚 **References:**
+
+---
+
 ## Deployment
 
 Deploying machine learning models to production.
@@ -174,5 +193,6 @@ Deploying machine learning models to production.
   ## Extras (Random fun stuff)
 
   - **GPU Acceleration Libraries**: CUML and CUDF from RAPIDs (SkLearn)
+  - **OCR Libraries**: Tesseract OCR, EasyOCR
 
 </details>
