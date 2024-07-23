@@ -182,20 +182,22 @@ As the name suggests, this part focuses on technologies that deal with visual da
 
 Deploying machine learning models to production.
 
-**Model Serving**: Flask, FastAPI, Streamlit, TensorFlow Serving
-**Containers**: Docker, Kubernetes
-**Cloud Services**: AWS, Google Cloud, Azure and IBM Watson
+- **Model Serving**: Flask, FastAPI, Streamlit, TensorFlow Serving
+- **Containers**: Docker, Kubernetes
+- **Cloud Services**: AWS, Google Cloud, Azure and IBM Watson
 
 📚 **References:**
 
 ---
 
 <details>
-  <summary>Click to expand</summary>
+  <summary>Click here if you're ready for more</summary>
   
   ## Extras (Random fun stuff)
 
   - **GPU Acceleration Libraries**: CUML and CUDF from RAPIDs (SkLearn)
   - **OCR Libraries**: Tesseract OCR, EasyOCR
+  - **CI/CD for ML**: Automated Pipelines (enkins, GitLab CI, and CircleCI), Versioning (DVC, MLflow)
+  - **Model Monitoring**: Tracking model performance and detecting drifts using tools like Prometheus, Grafana, and custom monitoring solutions.
 
 </details>
