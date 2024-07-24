@@ -6,6 +6,8 @@
 
 **PS: This is targeted at individuals that already understand basic programming concepts and things like version control.**
 
+**🔗 Connect with me:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Mohamed-Al-Mamari) 
+
 ## Topics of Study
 
 - [Statistics](#statistics)
