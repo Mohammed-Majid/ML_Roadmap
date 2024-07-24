@@ -68,7 +68,7 @@ Calculus is essential for understanding the optimization techniques used in mach
 The importance of programming is probably self explanatory. Programming skills are essential for implementing machine learning algorithms, working with data and everything else (This roadmap mainly focuses on Python).
 
 - **Python**: General syntax, Control flow, Functions, Classes, File handling (pickle/Joblib/Json), Loops and so on.
-- **Libraries**: NumPy, pandas, matplotlib, seaborn, Scikit-learn, TensorFlow, Keras, PyTorch etc..
+- **Libraries**: NumPy, pandas, matplotlib, seaborn, Scikit-learn, OpenCV, NLTK, Spacy, TensorFlow, Keras, PyTorch etc..
 - **Tools**: Jupyter Notebooks, git/github, package/environment managers.
 
 📚 **References:**
@@ -81,7 +81,7 @@ A simple analogy would be to think of data as the ingredients required to cook a
 
 - **Data Cleaning**: Handling/Imputing missing values and Removing duplicates.
 - **Detecting & Handling Outliers**: Visual Methods (Eg: Box Plots), Statistical Methods (Eg: Std, Z-score etc.), capping/flooring etc..
-- **Data Transformation**: Normalization (Feature scaling), Standardization, Encoding categorical variables.
+- **Data Transformation**: Normalization (Feature scaling), log normalization, Standardization, Encoding categorical variables.
 - **Feature Engineering**: Creating new features (Domain Knowledge), Selecting relevant features.
 - **Handling Imbalanced Data**: Resampling (Over-Sampling, Under-Sampling), SMOTE, Class weight assignments
 - **Data Splitting**: Train-test split, Cross-validation.
@@ -98,6 +98,8 @@ Before going into machine learning algorithms, it is important to undertand the 
 - **Types of Models**: Supervised, Unsupervised, Reinforcement 
 - **Bias and Variance**: Overfitting and Underfitting
 - **Regularization**: L1, L2, Dropout and Early stopping
+- **Cost Functions**: MSE (regression), Log loss/binary cross entropy (Binary Classification), categorical cross entropy (Multi-class classification with one-hot encoded features), sparse categorical cross entropy (Multi-class classifcation with integer features)
+- **Optimizers**: Gradient descent, Stochastic gradient descent, small batch gradient descent, RMSprop, Adam
 
 📚 **References:**
 
@@ -133,7 +135,7 @@ It is important to understand how your model is performing and whether it would 
 
 This is where it gets interesting. Ever wondered how tools like GPT or Midjourney work? this is where it all starts. The idea is to build deep networks of "neurons" or "perceptrons" that use non-linear activations to understand abstract concepts that would generally confuse standard statistical models.
 
-- **Neural Networks**: architecture, Perceptrons, Activation functions, weights & initialization, biases etc..
+- **Neural Networks**: architecture, Perceptrons, Activation functions, weights & initialization, optimizers (SGD, RMSprop, Adam etc), cost/loss functions, biases, back/forward propagation, gradient clipping, vanishing/exploding gradients, batch normalization etc..
 - **Convolutional Neural Networks (CNNs)**: Image classification, object detection, image segmentation
 - **Recurrent Neural Networks and variants (RNNs/LSTMs/GRUs)**: Working with sequential data like audio, text, time series etc..
 - **Transformers**: Text generation, attention mechanism
@@ -200,5 +202,5 @@ Deploying machine learning models to production.
   - **OCR Libraries**: Tesseract OCR, EasyOCR
   - **CI/CD for ML**: Automated Pipelines (enkins, GitLab CI, and CircleCI), Versioning (DVC, MLflow)
   - **Model Monitoring**: Tracking model performance and detecting drifts using tools like Prometheus, Grafana, and custom monitoring solutions.
-
+    
 </details>
