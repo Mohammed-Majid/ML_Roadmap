@@ -183,6 +183,7 @@ As the name suggests, this part focuses on technologies that deal with visual da
 Deploying machine learning models to production.
 
 - **Model Serving**: Flask, FastAPI, Streamlit, TensorFlow Serving
+- **Persisting Models**: Pickle & Joblib
 - **Containers**: Docker, Kubernetes
 - **Cloud Services**: AWS, Google Cloud, Azure and IBM Watson
 
