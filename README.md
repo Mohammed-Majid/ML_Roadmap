@@ -110,8 +110,8 @@ Before going into machine learning algorithms, it is important to undertand the 
 The statistical learning algorithms that do all the work we associate "Ai" with
 
 - **Supervised Algorithms**: Linear regression, Logistic regression, Decision trees, Random forests, Support vector machines, k-nearest neighbors
-- **Unsupervised Algorithms**: Clustering, Dimensionality reduction, recommenders and anomaly detection
-- **Ensemble Methods**: Stacking, Boosting and Bagging
+- **Unsupervised Algorithms**: Clustering (k-Means, Hierarchical), Dimensionality reduction (PCA, t-SNE, LDA), recommenders (collaborative and content-based) and anomaly detection
+- **Ensemble Methods**: Stacking, Boosting (adaboost, XGboost etc.) and Bagging (bootstrap aggregation)
 - **Reinforcement Learning**: Q-learning, Deep Q-networks
 
 
