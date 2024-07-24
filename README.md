@@ -1,8 +1,8 @@
-# Machine Learning Roadmap
+# Machine Learning Roadmap 
 
-**This is a compilation of all the resources I gathered while learning the skills required to build machine learning projects**
+**This is a compilation of the resources I gathered while learning the skills required to build machine learning projects**
 
-**I originally made this to serve as a roadmap for me to follow; but I then thought, why not make it publicly viewable? Anyways, hope you have fun with this repo!**
+**I originally made this to serve as a roadmap for me to follow; but I then thought, why not make it publicly viewable? It is still a work in progress since I am continuously learning new skills. Anyways, hope you have fun with this repo!**
 
 **PS: This is targeted at individuals that already understand basic programming concepts and things like version control.**
 
@@ -153,7 +153,7 @@ As the name suggests, this part focuses on technologies that deal with natural l
 - **NLP Models**: Sentiment analysis, Named entity recognition (NER), Machine translation, Language models etc.
 - **Model Optimization**: Quantization, Pruning, Fine tuning, Prompt tuning
 - **Specialized Techniques**: Zero-shot learning, Few-shot learning, Prompt Engineering, sequence/tree of prompts, self supervised learning, RAG, Langchain
-- **Large Language Models(LLMs)**: Working with APIs, local Open-Source LLMs etc.
+- **Large Language Models(LLMs)**: Working with APIs, local Open-Source LLMs, huggingface transformers etc.
 
 📚 **References:**
 
