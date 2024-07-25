@@ -44,6 +44,20 @@ Statistics can be thought of as the "foundational toolkit" for understanding and
 - [Khan Academy](https://www.khanacademy.org/math/statistics-probability/)
 - [Harvard statistics 110](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
 
+<details>
+<summary>Example: Calculating Mean, Median, and Mode in Python</summary>
+```
+import numpy as np
+from scipy import stats
+
+data = [1, 2, 2, 3, 4, 7, 9]
+
+mean = np.mean(data)
+median = np.median(data)
+mode = stats.mode(data)
+
+</details>
+
 ---
 
 ## Linear algebra
@@ -60,6 +74,17 @@ Linear algebra is fundamental for understanding how data is represented and mani
 - [3Blue1Brown's "Essence of Linear algebra"](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [MIT Linear algebra course](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k)
 - [Brown University slides & computational applications of linear algebra](https://codingthematrix.com/)
+<details>
+<summary>Example: Matrix Multiplication in Python</summary>
+```
+import numpy as np
+
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+C = np.dot(A, B)
+
+</details>
 
 ---
 
@@ -75,6 +100,35 @@ Calculus is essential for understanding the optimization techniques used in mach
 
 - [3Blue1Brown's Essense of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 - [Khan academy's Multivariable calculus](https://www.khanacademy.org/math/multivariable-calculus)
+
+<details>
+<summary>Example: Calculating Gradient Descent in Python</summary>
+```
+import numpy as np
+
+def gradient_descent(x, y, learning_rate=0.01, epochs=1000):
+    w = 0
+    b = 0
+    n = len(x)
+    
+    for _ in range(epochs):
+        y_pred = w * x + b
+        dw = -2/n * sum(x * (y - y_pred))
+        db = -2/n * sum(y - y_pred)
+        w -= learning_rate * dw
+        b -= learning_rate * db
+    
+    return w, b
+
+**Example data**
+
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([5, 7, 9, 11, 13])
+
+w, b = gradient_descent(x, y)
+print(f"Slope: {w}, Intercept: {b}")
+
+</details>
 
 --- 
 
@@ -163,7 +217,7 @@ Before going into machine learning algorithms, it is important to undertand the 
 - [log loss](https://www.youtube.com/watch?v=ar8mUO3d05w)
 - [Categorical cross entropy](https://www.youtube.com/watch?v=UlNB4R74z1A)
 
-[Optimizers](https://www.youtube.com/watch?v=mdKjMPmcWjY)
+- [Optimizers](https://www.youtube.com/watch?v=mdKjMPmcWjY)
 
 ---
 
@@ -261,6 +315,37 @@ This is where it gets interesting. Ever wondered how tools like GPT or Midjourne
 - [3Blue1Brown's Neural Network playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [activation functions](https://www.youtube.com/watch?v=Fu273ovPBmQ&t=324s)
 
+<details>
+<summary>Example: Building a Simple Neural Network with Keras</summary>
+
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+
+### Load data
+(X_train, y_train), (X_test, y_test) = tf.keras.datasets.mnist.load_data()
+X_train, X_test = X_train / 255.0, X_test / 255.0
+
+### Build model
+model = Sequential([
+    Dense(128, activation='relu', input_shape=(784,)),
+    Dense(64, activation='relu'),
+    Dense(10, activation='softmax')
+])
+
+### Compile model
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+### Train model
+model.fit(X_train, y_train, epochs=5, validation_data=(X_test, y_test))
+
+### Evaluate model
+loss, accuracy = model.evaluate(X_test, y_test)
+print(f'Loss: {loss}, Accuracy: {accuracy}')
+
+</details>
+
+
 - [Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu)
 
 - [Recurrent Neural Networks](https://www.youtube.com/playlist?list=PLuhqtP7jdD8ARBnzj8SZwNFhwWT89fAFr)
@@ -338,7 +423,7 @@ As the name suggests, this part focuses on technologies that deal with visual da
 
 - [Image Preprocessing](https://www.youtube.com/watch?v=kSqxn6zGE0c)
 
-### Feeature extraction
+### Feature extraction
 - [Edge Detection](https://www.youtube.com/watch?v=4xq5oE9jJZg)
 - [Histograms of Oriented Gradients (HOG)](https://www.youtube.com/watch?v=5nZGnYPyKLU)
 - [Feature detection overview](https://www.youtube.com/playlist?list=PLSK7NtBWwmpR8VfRwSLrflmmthToXzTe_)
