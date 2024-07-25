@@ -344,10 +344,13 @@ print(predictions)
 
 ```
 </details>
+
 ![structure-of-a-decision-tree](https://github.com/user-attachments/assets/6667d51d-6b6b-47a2-837a-87e1d46f56dc)
 
 </details>
+
 - [Random forest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIE96dI3U7oxHaCAbZgfhHk)
+  
 <details>
 <summary>Example: Random forests with sk-learn</summary>
 <details>    
@@ -402,7 +405,9 @@ print(predictions)
 ![istockphoto-1358738588-612x612](https://github.com/user-attachments/assets/b63eeb1c-3435-483b-8869-3a90cdddd79b)
     
 </details>
+
 - [Support vector machines (SVM)](https://www.youtube.com/playlist?list=PLblh5JKOoLUL3IJ4-yor0HzkqDQ3JmJkc)
+  
 <details>
 <summary>Example: SVMs with sk-learn</summary>
 <details>    
@@ -453,9 +458,11 @@ print(predictions)
 
 ```
 </details>
+
 ![Illustration-of-linear-SVM-Classifier-separating-the-two-classes-Illustration-of-linear](https://github.com/user-attachments/assets/60c4f617-a893-4aa3-a769-11c059af63f4)
 
 </details>
+
 - [K-nearest neighbor (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI&t=21s)
 <details>
 <summary>Example: KNNs with sk-learn</summary>
@@ -506,9 +513,11 @@ print(predictions)
    
 ```
 </details>
+
 ![0_2_qzcm2gSe9l67aI](https://github.com/user-attachments/assets/703e7e16-8835-41b5-8fd2-c4b2c4f1552d)
 
 </details>
+
 - [Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
 
 ### Unsupervised Algorithms
