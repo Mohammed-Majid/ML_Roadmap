@@ -258,7 +258,11 @@ model.fit(X, y)
 predictions = model.predict(X)
 print(predictions)
 ```
+<details>
+<summary>Example: illustration</summary>
+    
 ![1_Nf2tTTkALYq6RTMQmhjo1A](https://github.com/user-attachments/assets/1ba5a1c2-65cd-4d1f-b856-5d700a62e883)
+</details>
 
 </details>
 
@@ -289,7 +293,11 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, predictions))
 ```
+<details>
+<summary>Example: illustration</summary>
+    
 ![46-4-e1715636469361](https://github.com/user-attachments/assets/7a03c495-72df-4aad-a97b-14a69b7422d0)
+</details>
 
 </details>
   
@@ -344,8 +352,11 @@ print(predictions)
 
 ```
 </details>
+<details>
+<summary>Example: illustration</summary>
 
 ![structure-of-a-decision-tree](https://github.com/user-attachments/assets/6667d51d-6b6b-47a2-837a-87e1d46f56dc)
+</details>
 
 </details>
 
@@ -401,9 +412,12 @@ print(predictions)
 
 ```
 </details>
+<details>
+<summary>Example: illustration</summary>
 
 ![istockphoto-1358738588-612x612](https://github.com/user-attachments/assets/b63eeb1c-3435-483b-8869-3a90cdddd79b)
-    
+</details>
+
 </details>
 
 - [Support vector machines (SVM)](https://www.youtube.com/playlist?list=PLblh5JKOoLUL3IJ4-yor0HzkqDQ3JmJkc)
@@ -459,8 +473,12 @@ print(predictions)
 ```
 </details>
 
-![Illustration-of-linear-SVM-Classifier-separating-the-two-classes-Illustration-of-linear](https://github.com/user-attachments/assets/60c4f617-a893-4aa3-a769-11c059af63f4)
+<details>
+<summary>Example: illustration</summary>
 
+
+![Illustration-of-linear-SVM-Classifier-separating-the-two-classes-Illustration-of-linear](https://github.com/user-attachments/assets/60c4f617-a893-4aa3-a769-11c059af63f4)
+</details>
 </details>
 
 - [K-nearest neighbor (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI&t=21s)
@@ -516,9 +534,10 @@ print(predictions)
    
 ```
 </details>
-
+<details>
+<summary>Example: illustration</summary>
 ![0_2_qzcm2gSe9l67aI](https://github.com/user-attachments/assets/703e7e16-8835-41b5-8fd2-c4b2c4f1552d)
-
+</details>
 </details>
 
 - [Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
