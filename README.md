@@ -76,6 +76,7 @@ Linear algebra is fundamental for understanding how data is represented and mani
 - [Brown University slides & computational applications of linear algebra](https://codingthematrix.com/)
 <details>
 <summary>Example: Matrix Multiplication in Python</summary>
+    
 ```
 import numpy as np
 
@@ -83,7 +84,7 @@ A = np.array([[1, 2], [3, 4]])
 B = np.array([[5, 6], [7, 8]])
 
 C = np.dot(A, B)
-
+```
 </details>
 
 ---
@@ -103,6 +104,7 @@ Calculus is essential for understanding the optimization techniques used in mach
 
 <details>
 <summary>Example: Calculating Gradient Descent in Python</summary>
+    
 ```
 import numpy as np
 
@@ -127,6 +129,7 @@ y = np.array([5, 7, 9, 11, 13])
 
 w, b = gradient_descent(x, y)
 print(f"Slope: {w}, Intercept: {b}")
+```
 
 </details>
 
@@ -303,6 +306,9 @@ It is important to understand how your model is performing and whether it would 
 
 This is where it gets interesting. Ever wondered how tools like GPT or Midjourney work? this is where it all starts. The idea is to build deep networks of "neurons" or "perceptrons" that use non-linear activations to understand abstract concepts that would generally confuse standard statistical models.
 
+![1_ZXAOUqmlyECgfVa81Sr6Ew](https://github.com/user-attachments/assets/0026e041-c729-42e3-b074-a398d6034156)
+
+
 - **Neural Networks**: architecture, Perceptrons, Activation functions (non-saturated), weights & initialization, optimizers (SGD, RMSprop, Adam etc), cost/loss functions, biases, back/forward propagation, gradient clipping, vanishing/exploding gradients, batch normalization etc..
 - **Convolutional Neural Networks (CNNs)**: convolutional layers, pooling layers, kernels, feature maps
 - **Recurrent Neural Networks and variants (RNNs/LSTMs/GRUs)**: Working with sequential data like audio, text, time series etc..
@@ -318,31 +324,32 @@ This is where it gets interesting. Ever wondered how tools like GPT or Midjourne
 <details>
 <summary>Example: Building a Simple Neural Network with Keras</summary>
 
+```
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
-### Load data
+# Load data
 (X_train, y_train), (X_test, y_test) = tf.keras.datasets.mnist.load_data()
 X_train, X_test = X_train / 255.0, X_test / 255.0
 
-### Build model
+# Build model
 model = Sequential([
     Dense(128, activation='relu', input_shape=(784,)),
     Dense(64, activation='relu'),
     Dense(10, activation='softmax')
 ])
 
-### Compile model
+# Compile model
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-### Train model
+# Train model
 model.fit(X_train, y_train, epochs=5, validation_data=(X_test, y_test))
 
-### Evaluate model
+# Evaluate model
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f'Loss: {loss}, Accuracy: {accuracy}')
-
+```
 </details>
 
 
