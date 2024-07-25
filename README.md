@@ -88,13 +88,16 @@ The importance of programming is probably self explanatory. Programming skills a
 
 📚 **References:**
 
+### Python
 [Freecode camp's python for beginners](https://www.youtube.com/watch?v=rfscVS0vtbw&t=3182s)
 [W3 schools python](https://www.w3schools.com/python/default.asp)
 
+### Essential Libraries
 [Keith Galli's complete Pandas tutorial](https://youtu.be/2uvysYbKdjM?si=rUAbKPo86p2SQqLW)
 [Patrick loeber's Numpy crash course](https://www.youtube.com/watch?v=9JUAPgtkKpI&t=398s)
 [Neural nine's matplotlib crash course](https://www.youtube.com/watch?v=OZOOLe2imFo)
 
+### Tools
 [Conda (package manager) tutorial](https://www.youtube.com/watch?v=sDCtY9Z1bqE)
 [Jupyter Notebooks](https://www.youtube.com/watch?v=IMrxB8Mq5KU)
 [Mosh Hamadani's github tutorial](https://www.youtube.com/watch?v=8JJ101D3knE&t=1001s)
@@ -170,6 +173,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 
 📚 **References:**
 
+### Supervised Algorithms
 [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
 [Logistic regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe)
 [Decision Trees](https://www.youtube.com/playlist?list=PLblh5JKOoLUKAtDViTvRGFpphEc24M-QH)
@@ -178,6 +182,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 [K-nearest neighbor (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI&t=21s)
 [Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
 
+### Unsupervised Algorithms
 [hierarchial clustering](https://www.youtube.com/watch?v=7xHsRkOdVwo)
 [k-means clustering](https://www.youtube.com/watch?v=4b5d3muPQmA&t=33s)
 
@@ -191,8 +196,10 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 
 [Variational Autoencoders (VAEs)](https://www.youtube.com/watch?v=fcvYpzHmhvA)
 
+### Ensemble methods
 [Ensemble learning overview](https://www.youtube.com/watch?v=sN5ZcJLDMaE)
 
+### Reinforcement learning fundamentals
 [Reinforcement learning 101](https://www.youtube.com/playlist?list=PLTl9hO2Oobd9kS--NgVz0EPNyEmygV1Ha)
 [Reinforcement learning playlist 2](https://www.youtube.com/playlist?list=PLzvYlJMoZ02Dxtwe-MmH4nOB5jYlMGBjr)
 
@@ -208,17 +215,21 @@ It is important to understand how your model is performing and whether it would 
  
 📚 **References:**
 
+### Classification evaluation metrics
 [Classification metrics (precision, recall, F1 score)](https://www.youtube.com/watch?v=2osIZ-dSPGE&t=586s)
 [Confusion Matrix](https://www.youtube.com/watch?v=Kdsp6soqA7o&t=323s)
 [ROC-AUC](https://www.youtube.com/watch?v=4jRBRDbJemM&t=77s)
 
+### Regression evaluation metrics
 [R squared](https://www.youtube.com/watch?v=bMccdk8EdGo&t=7s)
 [MSE](https://statisticsbyjim.com/regression/mean-squared-error-mse/)
 
+### Validation techniques
 [Cross validation](https://www.youtube.com/watch?v=fSytzGwwBVw)
 [Grid search & Randomized search (hyperparameter tuning)](https://www.youtube.com/watch?v=HdlDYng8g9s)
 [Learning curves](https://www.youtube.com/watch?v=nt5DwCuYY5c)
 
+### Model explainability
 [SHAP](https://www.youtube.com/playlist?list=PLqDyyww9y-1SJgMw92x90qPYpHgahDLIK)
 
 
@@ -266,15 +277,18 @@ As the name suggests, this part focuses on technologies that deal with natural l
 
 📚 **References:**
 
+### Preprocessing 
 [Tokenization](https://www.youtube.com/watch?v=_lR3RjvYvF4)
 [Stemming and Lemmatization](https://www.youtube.com/watch?v=HHAilAC3cXw)
 
+### Text feature extraction
 [N-grams](https://www.youtube.com/watch?v=nZromH6F7R0)
 [Bag of words](https://www.youtube.com/watch?v=Yt1Sw6yWjlw)
 [TF-IDF](https://www.youtube.com/watch?v=ATK6fm3cYfI)
 [Word Embeddings](https://www.youtube.com/watch?v=Do8cVbx-HOs)
 [Cosine Similarity](https://www.youtube.com/watch?v=m_CooIRM3UI&t=539s)
 
+### Optimizing NLP models
 [Quantization](https://www.youtube.com/watch?v=qqN63hbziaI)
 [Quantization & Pruning explained](https://www.youtube.com/watch?v=UcwDgsMgTu4&t=359s)
 [Fine tuning GPT](https://www.youtube.com/watch?v=y_VtqdK6io0)
@@ -287,7 +301,7 @@ As the name suggests, this part focuses on technologies that deal with natural l
 [Direct Preference Optimization](https://www.youtube.com/watch?v=XZLc09hkMwA)
 [Prompt engineering](https://www.youtube.com/watch?v=aOm75o2Z5-o&t=5s)
 
-
+### Working with models 
 [local LLMs with LM Studio](https://www.youtube.com/watch?v=yBI1nPep72Q&t=75s)
 [Huggingface transformers library](https://www.youtube.com/watch?v=jan07gloaRg)
 [Langchain](https://www.youtube.com/watch?v=mrjq3lFz23s&t=61s)
@@ -314,28 +328,36 @@ As the name suggests, this part focuses on technologies that deal with visual da
 
 [Image Preprocessing](https://www.youtube.com/watch?v=kSqxn6zGE0c)
 
+### Feeature extraction
 [Edge Detection](https://www.youtube.com/watch?v=4xq5oE9jJZg)
 [Histograms of Oriented Gradients (HOG)](https://www.youtube.com/watch?v=5nZGnYPyKLU)
 [Feature detection overview](https://www.youtube.com/playlist?list=PLSK7NtBWwmpR8VfRwSLrflmmthToXzTe_)
 [SIFT](https://www.youtube.com/watch?v=KgsHoJYJ4S8)
 
+### Object detection models
 [YOLO](https://www.youtube.com/watch?v=ag3DLKsl2vk&t=489s)
 [Faster R-CNN](https://www.youtube.com/playlist?list=PL8hTotro6aVG6prsY92ZNVBNPr1PkXgsP)
 
+### Image classification models
 [ResNet](https://www.youtube.com/watch?v=o_3mboe1jYI&t=392s)
 
+### Image segmentation models
 [U-Net](https://www.youtube.com/watch?v=NhdzGfB1q74&t=81s)
 [Mask R-CNN](https://www.youtube.com/watch?v=4tkgOzQ9yyo)
 
+### Generative models
 [Stable Diffusion](https://www.youtube.com/watch?v=sFztPP9qPRc&t=3s)
 
+### Specialized techniques
 [Style transfer](https://www.youtube.com/playlist?list=PLBoQnSflObcmbfshq9oNs41vODgXG-608)
 [Image super resolution](https://www.youtube.com/watch?v=KULkSwLk62I)
 
+### 3D vision
 [Depth estimation](https://www.youtube.com/watch?v=CpA2WAvynb0)
 [3D reconstruction](https://www.youtube.com/watch?v=tqBD6rxiul4&t=71s)
 [Stereo Vision](https://www.youtube.com/watch?v=KOSS24P3_fY)
 
+### Working with videos
 [Human-based action recognition in videos](https://www.mdpi.com/2297-8747/28/2/61)
 [Overview of object tracking](https://supervisely.com/blog/complete-guide-to-object-tracking-best-ai-models-tools-and-methods-in-2023/)
 [Single & Multiple object tracking](https://www.youtube.com/@multipleobjecttracking1226/playlists)
@@ -354,14 +376,17 @@ Deploying machine learning models to production.
 
 📚 **References:**
 
+### Model serving
 [Flask tutorial](https://www.youtube.com/watch?v=Z1RJmh_OqeA)
 [Flask ML web app](https://www.youtube.com/watch?v=qNF1HqBvpGE&t=2657s)
 [Fast API](https://www.youtube.com/watch?v=tLKKmouUams)
 [Streamlit tutorial series](https://www.youtube.com/playlist?list=PLtqF5YXg7GLmCvTswG32NqQypOuYkPRUE)
 [Tensorflow model serving](https://www.youtube.com/watch?v=P-5sMcpTE0g)
 
+### Model persistence
 [Model persistence](https://www.youtube.com/watch?v=jwhSLGmBEpU&t=20s)
 
+### Containerization
 [Docker tutorial](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=159s)
 [Kubernetes](https://www.youtube.com/watch?v=X48VuDVv0do)
 
