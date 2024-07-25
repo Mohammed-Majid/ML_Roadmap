@@ -210,18 +210,23 @@ Before going into machine learning algorithms, it is important to undertand the 
 
 📚 **References:**
 
+### Model Types
 - [Assembly AI's Supervised learning video](https://youtu.be/Mu3POlNoLdc?si=vV2EPwvFRGlSj19G)
 - [Assembly AI's Unsupervised learning video](https://www.youtube.com/watch?v=yteYU_QpUxs)
 - [Reinforcement learning basic concepts](https://www.youtube.com/watch?v=nIgIv4IfJ6s)
 
+### Bias & Variance 
 - [Bias & Variance](https://www.youtube.com/watch?v=EuBBz3bI-aA)
 
+### Regularization
 - [Regularization](https://www.youtube.com/watch?v=EehRcPo1M-Q&t=35s)
 
+### Loss functions
 - [Mean Squared Error (Regression)](https://www.youtube.com/watch?v=yt7fzvwfWHs)
-- [log loss](https://www.youtube.com/watch?v=ar8mUO3d05w)
-- [Categorical cross entropy](https://www.youtube.com/watch?v=UlNB4R74z1A)
+- [log loss/binary cross entropy (binary classification)](https://www.youtube.com/watch?v=ar8mUO3d05w)
+- [Categorical cross entropy (Multi-class classification)](https://www.youtube.com/watch?v=UlNB4R74z1A)
 
+### Optimizers
 - [Optimizers](https://www.youtube.com/watch?v=mdKjMPmcWjY)
 
 ---
@@ -240,7 +245,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 ### Supervised Algorithms
 - [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
 <details>
-<summary>Example: Linear regression with sk-learn</summary>
+<summary>Code Example: Linear regression with sk-learn</summary>
 
 ```
 from sklearn.linear_model import LinearRegression
@@ -269,7 +274,7 @@ print(predictions)
 - [Logistic regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe)
 
 <details>
-<summary>Example: Logistic Regression with sk-learn</summary>
+<summary>Code Example: Logistic Regression with sk-learn</summary>
 
 ```
 from sklearn.linear_model import LogisticRegression
@@ -303,7 +308,7 @@ print("Accuracy:", accuracy_score(y_test, predictions))
   
 - [Decision Trees](https://www.youtube.com/playlist?list=PLblh5JKOoLUKAtDViTvRGFpphEc24M-QH)
 <details>
-<summary>Example: Decision Trees with sk-learn</summary>
+<summary>Code Example: Decision Trees with sk-learn</summary>
 <details>    
 <summary>Example: Classifier </summary>
     
@@ -363,7 +368,7 @@ print(predictions)
 - [Random forest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIE96dI3U7oxHaCAbZgfhHk)
   
 <details>
-<summary>Example: Random forests with sk-learn</summary>
+<summary>Code Example: Random forests with sk-learn</summary>
 <details>    
 <summary>Example: Classifier </summary>
     
@@ -423,7 +428,7 @@ print(predictions)
 - [Support vector machines (SVM)](https://www.youtube.com/playlist?list=PLblh5JKOoLUL3IJ4-yor0HzkqDQ3JmJkc)
   
 <details>
-<summary>Example: SVMs with sk-learn</summary>
+<summary>Code Example: SVMs with sk-learn</summary>
 <details>    
 <summary>Example: Classifier </summary>
     
@@ -484,7 +489,7 @@ print(predictions)
 - [K-nearest neighbor (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI&t=21s)
 
 <details>
-<summary>Example: KNNs with sk-learn</summary>
+<summary>Code Example: KNNs with sk-learn</summary>
 <details>
 <summary>Example: Classifier</summary>
     
@@ -622,7 +627,7 @@ This is where it gets interesting. Ever wondered how tools like GPT or Midjourne
 - [activation functions](https://www.youtube.com/watch?v=Fu273ovPBmQ&t=324s)
 
 <details>
-<summary>Example: Building a Simple Neural Network with Keras</summary>
+<summary>Code Example: Building a Simple Neural Network with Keras</summary>
 
 ```
 import tensorflow as tf
