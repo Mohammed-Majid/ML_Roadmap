@@ -536,7 +536,9 @@ print(predictions)
 </details>
 <details>
 <summary>Example: illustration</summary>
+    
 ![0_2_qzcm2gSe9l67aI](https://github.com/user-attachments/assets/703e7e16-8835-41b5-8fd2-c4b2c4f1552d)
+
 </details>
 </details>
 
