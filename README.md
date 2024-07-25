@@ -464,6 +464,7 @@ print(predictions)
 </details>
 
 - [K-nearest neighbor (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI&t=21s)
+
 <details>
 <summary>Example: KNNs with sk-learn</summary>
 <details>
@@ -493,6 +494,8 @@ print("Accuracy:", accuracy_score(y_test, predictions))
  
 ```
 </details>
+
+<details>
 <summary>Example: Regressor</summary>
     
 ```
