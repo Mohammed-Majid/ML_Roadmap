@@ -294,9 +294,221 @@ print("Accuracy:", accuracy_score(y_test, predictions))
 </details>
   
 - [Decision Trees](https://www.youtube.com/playlist?list=PLblh5JKOoLUKAtDViTvRGFpphEc24M-QH)
+<details>
+<summary>Example: Decision Trees with sk-learn</summary>
+<details>    
+<summary>Example: Classifier </summary>
+    
+```
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Load data
+data = load_iris()
+X = data.data
+y = data.target
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+
+# Create and fit the model
+model = DecisionTreeClassifier()
+model.fit(X_train, y_train)
+
+# Predict and evaluate
+predictions = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, predictions))
+
+```
+</details>
+<details>
+<summary>Example: Regressor </summary>
+    
+```
+from sklearn.tree import DecisionTreeRegressor
+import numpy as np
+
+# Sample data
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])
+
+# Create and fit the model
+model = DecisionTreeRegressor()
+model.fit(X, y)
+
+# Predict
+predictions = model.predict(X)
+print(predictions)
+
+```
+</details>
+![structure-of-a-decision-tree](https://github.com/user-attachments/assets/6667d51d-6b6b-47a2-837a-87e1d46f56dc)
+
+</details>
 - [Random forest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIE96dI3U7oxHaCAbZgfhHk)
+<details>
+<summary>Example: Random forests with sk-learn</summary>
+<details>    
+<summary>Example: Classifier </summary>
+    
+```
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Load data
+data = load_iris()
+X = data.data
+y = data.target
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+
+# Create and fit the model
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+# Predict and evaluate
+predictions = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, predictions))
+
+```
+</details>
+<details>
+<summary>Example: Regressor </summary>
+    
+```
+from sklearn.ensemble import RandomForestRegressor
+import numpy as np
+
+# Sample data
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])
+
+# Create and fit the model
+model = RandomForestRegressor()
+model.fit(X, y)
+
+# Predict
+predictions = model.predict(X)
+print(predictions)
+
+```
+</details>
+
+![istockphoto-1358738588-612x612](https://github.com/user-attachments/assets/b63eeb1c-3435-483b-8869-3a90cdddd79b)
+    
+</details>
 - [Support vector machines (SVM)](https://www.youtube.com/playlist?list=PLblh5JKOoLUL3IJ4-yor0HzkqDQ3JmJkc)
+<details>
+<summary>Example: SVMs with sk-learn</summary>
+<details>    
+<summary>Example: Classifier </summary>
+    
+```
+from sklearn.svm import SVC
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Load data
+data = load_iris()
+X = data.data
+y = data.target
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+
+# Create and fit the model
+model = SVC()
+model.fit(X_train, y_train)
+
+# Predict and evaluate
+predictions = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, predictions))
+
+```
+</details>
+<details>
+<summary>Example: Regressor </summary>
+    
+```
+from sklearn.svm import SVR
+import numpy as np
+
+# Sample data
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])
+
+# Create and fit the model
+model = SVR()
+model.fit(X, y)
+
+# Predict
+predictions = model.predict(X)
+print(predictions)
+
+```
+</details>
+![Illustration-of-linear-SVM-Classifier-separating-the-two-classes-Illustration-of-linear](https://github.com/user-attachments/assets/60c4f617-a893-4aa3-a769-11c059af63f4)
+
+</details>
 - [K-nearest neighbor (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI&t=21s)
+<details>
+<summary>Example: KNNs with sk-learn</summary>
+<details>
+<summary>Example: Classifier</summary>
+    
+```
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Load data
+data = load_iris()
+X = data.data
+y = data.target
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+
+# Create and fit the model
+model = KNeighborsClassifier()
+model.fit(X_train, y_train)
+
+# Predict and evaluate
+predictions = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, predictions))
+ 
+```
+</details>
+<summary>Example: Regressor</summary>
+    
+```
+from sklearn.neighbors import KNeighborsRegressor
+import numpy as np
+
+# Sample data
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])
+
+# Create and fit the model
+model = KNeighborsRegressor()
+model.fit(X, y)
+
+# Predict
+predictions = model.predict(X)
+print(predictions)
+   
+```
+</details>
+![0_2_qzcm2gSe9l67aI](https://github.com/user-attachments/assets/703e7e16-8835-41b5-8fd2-c4b2c4f1552d)
+
+</details>
 - [Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
 
 ### Unsupervised Algorithms
