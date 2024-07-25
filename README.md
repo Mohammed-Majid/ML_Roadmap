@@ -263,7 +263,8 @@ print(predictions)
 </details>
 
 - [Logistic regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe)
-  
+
+<details>
 <summary>Example: Logistic Regression with sk-learn</summary>
 
 ```
