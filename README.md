@@ -46,6 +46,7 @@ Statistics can be thought of as the "foundational toolkit" for understanding and
 
 <details>
 <summary>Example: Calculating Mean, Median, and Mode in Python</summary>
+    
 ```
 import numpy as np
 from scipy import stats
@@ -55,6 +56,7 @@ data = [1, 2, 2, 3, 4, 7, 9]
 mean = np.mean(data)
 median = np.median(data)
 mode = stats.mode(data)
+```
 
 </details>
 
@@ -237,7 +239,59 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 
 ### Supervised Algorithms
 - [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
+<details>
+<summary>Example: Linear regression with sk-learn</summary>
+
+```
+from sklearn.linear_model import LinearRegression
+import numpy as np
+
+# Sample data
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])
+
+# Create and fit the model
+model = LinearRegression()
+model.fit(X, y)
+
+# Predict
+predictions = model.predict(X)
+print(predictions)
+```
+![1_Nf2tTTkALYq6RTMQmhjo1A](https://github.com/user-attachments/assets/1ba5a1c2-65cd-4d1f-b856-5d700a62e883)
+
+</details>
+
 - [Logistic regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe)
+  
+<summary>Example: Logistic Regression with sk-learn</summary>
+
+```
+from sklearn.linear_model import LogisticRegression
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Load data
+data = load_iris()
+X = data.data
+y = data.target
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+
+# Create and fit the model
+model = LogisticRegression(max_iter=200)
+model.fit(X_train, y_train)
+
+# Predict and evaluate
+predictions = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, predictions))
+```
+![46-4-e1715636469361](https://github.com/user-attachments/assets/7a03c495-72df-4aad-a97b-14a69b7422d0)
+
+</details>
+  
 - [Decision Trees](https://www.youtube.com/playlist?list=PLblh5JKOoLUKAtDViTvRGFpphEc24M-QH)
 - [Random forest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIE96dI3U7oxHaCAbZgfhHk)
 - [Support vector machines (SVM)](https://www.youtube.com/playlist?list=PLblh5JKOoLUL3IJ4-yor0HzkqDQ3JmJkc)
