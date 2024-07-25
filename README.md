@@ -45,7 +45,7 @@ Statistics can be thought of as the "foundational toolkit" for understanding and
 - [Harvard statistics 110](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
 
 <details>
-<summary>Example: Calculating Mean, Median, and Mode in Python</summary>
+<summary>Code Example: Calculating Mean, Median, and Mode in Python</summary>
     
 ```
 import numpy as np
@@ -77,7 +77,7 @@ Linear algebra is fundamental for understanding how data is represented and mani
 - [MIT Linear algebra course](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k)
 - [Brown University slides & computational applications of linear algebra](https://codingthematrix.com/)
 <details>
-<summary>Example: Matrix Multiplication in Python</summary>
+<summary>Code Example: Matrix Multiplication in Python</summary>
     
 ```
 import numpy as np
@@ -105,7 +105,7 @@ Calculus is essential for understanding the optimization techniques used in mach
 - [Khan academy's Multivariable calculus](https://www.khanacademy.org/math/multivariable-calculus)
 
 <details>
-<summary>Example: Calculating Gradient Descent in Python</summary>
+<summary> Code Example: Calculating Gradient Descent in Python</summary>
     
 ```
 import numpy as np
