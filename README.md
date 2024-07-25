@@ -2,7 +2,7 @@
 
 **This is a compilation of the resources I gathered while learning the skills required to build machine learning projects**
 
-**I originally made this to serve as a roadmap for me to follow; but I then thought, why not make it publicly viewable? It is still a work in progress since I am continuously learning new skills. Anyways, hope you have fun with this repo!**
+**I originally made this to serve as a roadmap for me to follow; but I then thought, why not make it publicly viewable? It is still a work in progress since I am continuously learning new skills, and it is by no means an exhaustive list. Anyways, hope you have fun with this repo!**
 
 **PS: This is targeted at individuals that already understand basic programming concepts and things like version control.**
 
@@ -38,6 +38,12 @@ Statistics can be thought of as the "foundational toolkit" for understanding and
 
 📚 **References:**
 
+[Stat Quest with Josh Starmer](https://www.youtube.com/user/joshstarmer)
+[Datatab's guide to statistics for data science](https://www.youtube.com/watch?v=Ym1iH8-GQOE&t=456s)
+[Zedstatistics](https://www.youtube.com/@zedstatistics/)
+[Khan Academy](https://www.khanacademy.org/math/statistics-probability/)
+[Harvard statistics 110](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
+
 ---
 
 ## Linear algebra
@@ -51,6 +57,10 @@ Linear algebra is fundamental for understanding how data is represented and mani
 
 📚 **References:**
 
+[3Blue1Brown's "Essence of Linear algebra"](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+[MIT Linear algebra course](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k)
+[Brown University slides & computational applications of linear algebra](https://codingthematrix.com/)
+
 ---
 
 ## Calculus 
@@ -63,17 +73,31 @@ Calculus is essential for understanding the optimization techniques used in mach
 
 📚 **References:**
 
+[3Blue1Brown's Essense of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+[Khan academy's Multivariable calculus](https://www.khanacademy.org/math/multivariable-calculus)
+
 --- 
 
 ## Programming 
 
 The importance of programming is probably self explanatory. Programming skills are essential for implementing machine learning algorithms, working with data and everything else (This roadmap mainly focuses on Python).
 
-- **Python**: General syntax, Control flow, Functions, Classes, File handling (pickle/Joblib/Json), Loops and so on.
+- **Python**: General syntax, Control flow, Functions, Classes, File handling, Loops and so on.
 - **Libraries**: NumPy, pandas, matplotlib, seaborn, Scikit-learn, OpenCV, NLTK, Spacy, TensorFlow, Keras, PyTorch etc..
 - **Tools**: Jupyter Notebooks, git/github, package/environment managers.
 
 📚 **References:**
+
+[Freecode camp's python for beginners](https://www.youtube.com/watch?v=rfscVS0vtbw&t=3182s)
+[W3 schools python](https://www.w3schools.com/python/default.asp)
+
+[Keith Galli's complete Pandas tutorial](https://youtu.be/2uvysYbKdjM?si=rUAbKPo86p2SQqLW)
+[Patrick loeber's Numpy crash course](https://www.youtube.com/watch?v=9JUAPgtkKpI&t=398s)
+[Neural nine's matplotlib crash course](https://www.youtube.com/watch?v=OZOOLe2imFo)
+
+[Conda (package manager) tutorial](https://www.youtube.com/watch?v=sDCtY9Z1bqE)
+[Jupyter Notebooks](https://www.youtube.com/watch?v=IMrxB8Mq5KU)
+[Mosh Hamadani's github tutorial](https://www.youtube.com/watch?v=8JJ101D3knE&t=1001s)
 
 ---
 
@@ -90,12 +114,26 @@ A simple analogy would be to think of data as the ingredients required to cook a
 
 📚 **References:**
 
+[Data Exploration](https://www.youtube.com/watch?v=OY4eQrekQvs&t=735s)
+[Data Cleaning](https://www.youtube.com/watch?v=qxpKCBV60U4&t=69s)
+
+[outliers (visual approach)](https://www.youtube.com/watch?v=T-ubh8EWpTg)
+[outliers (statistical approach)](https://www.youtube.com/playlist?list=PLeo1K3hjS3ut5olrDIeVXk9N3Q7mKhDxO)
+
+[Feature scaling](https://www.youtube.com/watch?v=P3xPA7XFGCQ)
+[log normalization](https://www.youtube.com/watch?v=xtTX69JZ92w)
+[Encoding (one-hot, label)](https://www.youtube.com/watch?v=12Z6JBLKpts&t=432s)
+
+[Handling imbalanced data](https://www.youtube.com/watch?v=JnlM4yLFNuo&t=46s)
+
+[Data splits (train-test-validation)](https://www.youtube.com/watch?v=dSCFk168vmo)
+
 
 ---
 
 ## Machine Learning Pt.1: Fundamentals
 
-Before going into machine learning algorithms, it is important to undertand the different terminologies and concepts that underly these algorithms
+Before going into machine learning algorithms, it is important to undertand the different terminologies and concepts that underly these algorithms (note that this section only introduces these concepts)
 
 - **Types of Models**: Supervised, Unsupervised, Reinforcement 
 - **Bias and Variance**: Overfitting and Underfitting
@@ -105,6 +143,20 @@ Before going into machine learning algorithms, it is important to undertand the 
 
 📚 **References:**
 
+[Assembly AI's Supervised learning video](https://youtu.be/Mu3POlNoLdc?si=vV2EPwvFRGlSj19G)
+[Assembly AI's Unsupervised learning video](https://www.youtube.com/watch?v=yteYU_QpUxs)
+[Reinforcement learning basic concepts](https://www.youtube.com/watch?v=nIgIv4IfJ6s)
+
+[Bias & Variance](https://www.youtube.com/watch?v=EuBBz3bI-aA)
+
+[Regularization](https://www.youtube.com/watch?v=EehRcPo1M-Q&t=35s)
+
+[Mean Squared Error (Regression)](https://www.youtube.com/watch?v=yt7fzvwfWHs)
+[log loss](https://www.youtube.com/watch?v=ar8mUO3d05w)
+[Categorical cross entropy](https://www.youtube.com/watch?v=UlNB4R74z1A)
+
+[Optimizers](https://www.youtube.com/watch?v=mdKjMPmcWjY)
+
 ---
 
 ## Machine Learning Pt.2: Algorithms
@@ -112,12 +164,37 @@ Before going into machine learning algorithms, it is important to undertand the 
 The statistical learning algorithms that do all the work we associate "Ai" with
 
 - **Supervised Algorithms**: Linear regression, Logistic regression, Decision trees, Random forests, Support vector machines, k-nearest neighbors
-- **Unsupervised Algorithms**: Clustering (k-Means, Hierarchical), Dimensionality reduction (PCA, t-SNE, LDA), recommenders (collaborative and content-based) and anomaly detection
+- **Unsupervised Algorithms**: Clustering (k-Means, Hierarchical), Dimensionality reduction (PCA, t-SNE, LDA), recommenders (collaborative and content-based) and anomaly detection (Variational autoencoders)
 - **Ensemble Methods**: Stacking, Boosting (adaboost, XGboost etc.) and Bagging (bootstrap aggregation)
 - **Reinforcement Learning**: Q-learning, Deep Q-networks
 
-
 📚 **References:**
+
+[Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
+[Logistic regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUKxzEP5HA2d-Li7IJkHfXSe)
+[Decision Trees](https://www.youtube.com/playlist?list=PLblh5JKOoLUKAtDViTvRGFpphEc24M-QH)
+[Random forest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIE96dI3U7oxHaCAbZgfhHk)
+[Support vector machines (SVM)](https://www.youtube.com/playlist?list=PLblh5JKOoLUL3IJ4-yor0HzkqDQ3JmJkc)
+[K-nearest neighbor (KNN)](https://www.youtube.com/watch?v=HVXime0nQeI&t=21s)
+[Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
+
+[hierarchial clustering](https://www.youtube.com/watch?v=7xHsRkOdVwo)
+[k-means clustering](https://www.youtube.com/watch?v=4b5d3muPQmA&t=33s)
+
+[General overview of dimensionality reduction techniques](https://www.youtube.com/watch?v=jc1_yPYmspk)
+[PCA visually explained](https://www.youtube.com/watch?v=FD4DeN81ODY)
+[t-SNE explained](https://www.youtube.com/watch?v=NEaUSP4YerM)
+[Linear discriminant analysis (LDA)](https://www.youtube.com/watch?v=azXCzI57Yfc)
+
+[Content based recommenders](https://www.youtube.com/watch?v=4sy2tpzlgg4)
+[Collaborative filtering](https://www.youtube.com/watch?v=Fmtorg_dmM0&t=7s)
+
+[Variational Autoencoders (VAEs)](https://www.youtube.com/watch?v=fcvYpzHmhvA)
+
+[Ensemble learning overview](https://www.youtube.com/watch?v=sN5ZcJLDMaE)
+
+[Reinforcement learning 101](https://www.youtube.com/playlist?list=PLTl9hO2Oobd9kS--NgVz0EPNyEmygV1Ha)
+[Reinforcement learning playlist 2](https://www.youtube.com/playlist?list=PLzvYlJMoZ02Dxtwe-MmH4nOB5jYlMGBjr)
 
 --- 
 
@@ -126,10 +203,24 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 It is important to understand how your model is performing and whether it would be useful in the real world. Eg: A model with high variance would not generalize well and would therefore not perform well on unseen data.
 
 - **Metrics: Accuracy**, Precision, Recall, F1 Score, confusion matrix, ROC-AUC, MSE, R squared etc
-- **Validation Techniques**: Cross-validation, Hyperparameter tuning, Grid search, Random search, learning curves
+- **Validation Techniques**: Cross-validation, Hyperparameter tuning (Grid search, Random search), learning curves
 - **Model Explainability (Optional)**: SHAP
  
 📚 **References:**
+
+[Classification metrics (precision, recall, F1 score)](https://www.youtube.com/watch?v=2osIZ-dSPGE&t=586s)
+[Confusion Matrix](https://www.youtube.com/watch?v=Kdsp6soqA7o&t=323s)
+[ROC-AUC](https://www.youtube.com/watch?v=4jRBRDbJemM&t=77s)
+
+[R squared](https://www.youtube.com/watch?v=bMccdk8EdGo&t=7s)
+[MSE](https://statisticsbyjim.com/regression/mean-squared-error-mse/)
+
+[Cross validation](https://www.youtube.com/watch?v=fSytzGwwBVw)
+[Grid search & Randomized search (hyperparameter tuning)](https://www.youtube.com/watch?v=HdlDYng8g9s)
+[Learning curves](https://www.youtube.com/watch?v=nt5DwCuYY5c)
+
+[SHAP](https://www.youtube.com/playlist?list=PLqDyyww9y-1SJgMw92x90qPYpHgahDLIK)
+
 
 ---
 
@@ -137,14 +228,28 @@ It is important to understand how your model is performing and whether it would 
 
 This is where it gets interesting. Ever wondered how tools like GPT or Midjourney work? this is where it all starts. The idea is to build deep networks of "neurons" or "perceptrons" that use non-linear activations to understand abstract concepts that would generally confuse standard statistical models.
 
-- **Neural Networks**: architecture, Perceptrons, Activation functions, weights & initialization, optimizers (SGD, RMSprop, Adam etc), cost/loss functions, biases, back/forward propagation, gradient clipping, vanishing/exploding gradients, batch normalization etc..
-- **Convolutional Neural Networks (CNNs)**: Image classification, object detection, image segmentation
+- **Neural Networks**: architecture, Perceptrons, Activation functions (non-saturated), weights & initialization, optimizers (SGD, RMSprop, Adam etc), cost/loss functions, biases, back/forward propagation, gradient clipping, vanishing/exploding gradients, batch normalization etc..
+- **Convolutional Neural Networks (CNNs)**: convolutional layers, pooling layers, kernels, feature maps
 - **Recurrent Neural Networks and variants (RNNs/LSTMs/GRUs)**: Working with sequential data like audio, text, time series etc..
 - **Transformers**: Text generation, attention mechanism
 - **Autoencoders**: Latent variable representation (encoding/decoding) & feature extraction
 - **Generative Adversarial Networks (GANs)**: Generators & Discriminators
 
 📚 **References:**
+
+[3Blue1Brown's Neural Network playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+[activation functions](https://www.youtube.com/watch?v=Fu273ovPBmQ&t=324s)
+
+[Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu)
+
+[Recurrent Neural Networks](https://www.youtube.com/playlist?list=PLuhqtP7jdD8ARBnzj8SZwNFhwWT89fAFr)
+
+[Autoencoders](https://www.youtube.com/watch?v=6-fOJ79HW9U&t=179s)
+
+[Transformers](https://www.youtube.com/watch?v=_UVfwBqcnbM&t=38s)
+
+[Generative adversarial networks (GANs)](https://www.youtube.com/watch?v=8L11aMN5KY8)
+
 
 ---
 
@@ -153,13 +258,40 @@ This is where it gets interesting. Ever wondered how tools like GPT or Midjourne
 As the name suggests, this part focuses on technologies that deal with natural langauge (primarily text data).
 
 - **Text Preprocessing**: Tokenization, Lemmatization, Stemming, stop-word removal
-- **Text Representation (Feature Extraction)**: Bag of Words, TF-IDF, Word Embeddings (Word2Vec, GloVe), FastText
+- **Text Representation (Feature Extraction)**: N-grams, Bag of Words, TF-IDF, Word Embeddings (Word2Vec, GloVe), FastText, Cosine similarity
 - **NLP Models**: Sentiment analysis, Named entity recognition (NER), Machine translation, Language models etc.
 - **Model Optimization**: Quantization, Pruning, Fine tuning, Prompt tuning
-- **Specialized Techniques**: Zero-shot learning, Few-shot learning, Prompt Engineering, sequence/tree of prompts, self supervised learning, RAG, Langchain
-- **Large Language Models(LLMs)**: Working with APIs, local Open-Source LLMs, huggingface transformers etc.
+- **Specialized Techniques**: Zero-shot learning, Few-shot learning, Prompt Engineering, sequence/tree of prompts, self supervised learning, semi-supervised learning, RAG
+- **Large Language Models(LLMs)**: Working with APIs, local/Open-Source LLMs, huggingface transformers, Langchain etc.
 
 📚 **References:**
+
+[Tokenization](https://www.youtube.com/watch?v=_lR3RjvYvF4)
+[Stemming and Lemmatization](https://www.youtube.com/watch?v=HHAilAC3cXw)
+
+[N-grams](https://www.youtube.com/watch?v=nZromH6F7R0)
+[Bag of words](https://www.youtube.com/watch?v=Yt1Sw6yWjlw)
+[TF-IDF](https://www.youtube.com/watch?v=ATK6fm3cYfI)
+[Word Embeddings](https://www.youtube.com/watch?v=Do8cVbx-HOs)
+[Cosine Similarity](https://www.youtube.com/watch?v=m_CooIRM3UI&t=539s)
+
+[Quantization](https://www.youtube.com/watch?v=qqN63hbziaI)
+[Quantization & Pruning explained](https://www.youtube.com/watch?v=UcwDgsMgTu4&t=359s)
+[Fine tuning GPT](https://www.youtube.com/watch?v=y_VtqdK6io0)
+[Fine tuning LLMs](https://www.youtube.com/watch?v=eC6Hd1hFvos&t=18s)
+[Prompt tuning](https://www.youtube.com/watch?v=T_QhHvRxqUg)
+
+[LLM training simple overview](https://masteringllm.medium.com/llm-training-a-simple-3-step-guide-you-wont-find-anywhere-else-98ee218809e5)
+[RAG](https://www.youtube.com/watch?v=Ylz779Op9Pw)
+[Self-supervised learning](https://www.youtube.com/watch?v=sJzuNAisXHA)
+[Direct Preference Optimization](https://www.youtube.com/watch?v=XZLc09hkMwA)
+[Prompt engineering](https://www.youtube.com/watch?v=aOm75o2Z5-o&t=5s)
+
+
+[local LLMs with LM Studio](https://www.youtube.com/watch?v=yBI1nPep72Q&t=75s)
+[Huggingface transformers library](https://www.youtube.com/watch?v=jan07gloaRg)
+[Langchain](https://www.youtube.com/watch?v=mrjq3lFz23s&t=61s)
+[Open AI API](https://www.youtube.com/watch?v=czvVibB2lRA&t=393s)
 
 ---
 
@@ -180,6 +312,35 @@ As the name suggests, this part focuses on technologies that deal with visual da
 
 📚 **References:**
 
+[Image Preprocessing](https://www.youtube.com/watch?v=kSqxn6zGE0c)
+
+[Edge Detection](https://www.youtube.com/watch?v=4xq5oE9jJZg)
+[Histograms of Oriented Gradients (HOG)](https://www.youtube.com/watch?v=5nZGnYPyKLU)
+[Feature detection overview](https://www.youtube.com/playlist?list=PLSK7NtBWwmpR8VfRwSLrflmmthToXzTe_)
+[SIFT](https://www.youtube.com/watch?v=KgsHoJYJ4S8)
+
+[YOLO](https://www.youtube.com/watch?v=ag3DLKsl2vk&t=489s)
+[Faster R-CNN](https://www.youtube.com/playlist?list=PL8hTotro6aVG6prsY92ZNVBNPr1PkXgsP)
+
+[ResNet](https://www.youtube.com/watch?v=o_3mboe1jYI&t=392s)
+
+[U-Net](https://www.youtube.com/watch?v=NhdzGfB1q74&t=81s)
+[Mask R-CNN](https://www.youtube.com/watch?v=4tkgOzQ9yyo)
+
+[Stable Diffusion](https://www.youtube.com/watch?v=sFztPP9qPRc&t=3s)
+
+[Style transfer](https://www.youtube.com/playlist?list=PLBoQnSflObcmbfshq9oNs41vODgXG-608)
+[Image super resolution](https://www.youtube.com/watch?v=KULkSwLk62I)
+
+[Depth estimation](https://www.youtube.com/watch?v=CpA2WAvynb0)
+[3D reconstruction](https://www.youtube.com/watch?v=tqBD6rxiul4&t=71s)
+[Stereo Vision](https://www.youtube.com/watch?v=KOSS24P3_fY)
+
+[Human-based action recognition in videos](https://www.mdpi.com/2297-8747/28/2/61)
+[Overview of object tracking](https://supervisely.com/blog/complete-guide-to-object-tracking-best-ai-models-tools-and-methods-in-2023/)
+[Single & Multiple object tracking](https://www.youtube.com/@multipleobjecttracking1226/playlists)
+[Video Segmentation](https://www.v7labs.com/blog/video-segmentation-guide#:~:text=Video%20segmentation%20is%20the%20process,texture%2C%20or%20other%20visual%20features.)
+
 ---
 
 ## Deployment
@@ -188,21 +349,35 @@ Deploying machine learning models to production.
 
 - **Model Serving**: Flask, FastAPI, Streamlit, TensorFlow Serving
 - **Persisting Models**: Pickle & Joblib
-- **Containers**: Docker, Kubernetes
+- **Containerization**: Docker, Kubernetes
 - **Cloud Services**: AWS, Google Cloud, Azure and IBM Watson
 
 📚 **References:**
+
+[Flask tutorial](https://www.youtube.com/watch?v=Z1RJmh_OqeA)
+[Flask ML web app](https://www.youtube.com/watch?v=qNF1HqBvpGE&t=2657s)
+[Fast API](https://www.youtube.com/watch?v=tLKKmouUams)
+[Streamlit tutorial series](https://www.youtube.com/playlist?list=PLtqF5YXg7GLmCvTswG32NqQypOuYkPRUE)
+[Tensorflow model serving](https://www.youtube.com/watch?v=P-5sMcpTE0g)
+
+[Model persistence](https://www.youtube.com/watch?v=jwhSLGmBEpU&t=20s)
+
+[Docker tutorial](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=159s)
+[Kubernetes](https://www.youtube.com/watch?v=X48VuDVv0do)
+
 
 ---
 
 <details>
   <summary>Click here if you're ready for more</summary>
   
-  ## Extras (Random fun stuff)
+  ## Notable Extras (Random fun stuff)
 
   - **GPU Acceleration Libraries**: CUML and CUDF from RAPIDs (SkLearn)
-  - **OCR Libraries**: Tesseract OCR, EasyOCR
-  - **CI/CD for ML**: Automated Pipelines (enkins, GitLab CI, and CircleCI), Versioning (DVC, MLflow)
-  - **Model Monitoring**: Tracking model performance and detecting drifts using tools like Prometheus, Grafana, and custom monitoring solutions.
+  - **CI/CD for ML**: Automated Pipelines (enkins, GitLab CI, and CircleCI), Versioning (DVC, MLflow), experiment/metadata tracking (MLflow).
+  - **Model Monitoring**: Tracking model performance and detecting [drift](https://www.youtube.com/watch?v=uOG685WFO00) using tools like Prometheus, Grafana, and custom monitoring solutions.
+  - **System Design**: [Freecodecamp's video](https://www.youtube.com/watch?v=F2FmTdLtb_4)
+  - **Database design**: [Freecodecamp's video](https://www.youtube.com/watch?v=ztHopE5Wnpc)
+  - **OCR Libraries**: [Tesseract OCR](https://www.youtube.com/watch?v=PY_N1XdFp4w&t=32s), [EasyOCR](https://www.youtube.com/watch?v=GboDfGzkRsQ)
     
 </details>
