@@ -242,6 +242,8 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 
 📚 **References:**
 
+- [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
+  
 ### Supervised Algorithms
 - [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
 <details>
@@ -594,7 +596,8 @@ It is important to understand how your model is performing and whether it would 
 
 ### Regression evaluation metrics
 - [R squared](https://www.youtube.com/watch?v=bMccdk8EdGo&t=7s)
-- [MSE](https://statisticsbyjim.com/regression/mean-squared-error-mse/)
+- [Mean Squared Error (MSE)](https://statisticsbyjim.com/regression/mean-squared-error-mse/)
+- [Mean Absolute Error (MAE)](https://medium.com/@m.waqar.ahmed/understanding-mean-absolute-error-mae-in-regression-a-practical-guide-26e80ebb97df)
 
 ### Validation techniques
 - [Cross validation](https://www.youtube.com/watch?v=fSytzGwwBVw)
@@ -722,7 +725,7 @@ As the name suggests, this part focuses on technologies that deal with visual da
 
 - **Image Preprocessing**: Resizing, Normalization, Augmentation, Noise Reduction
 - **Feature Extraction**: Edge Detection, Histograms of Oriented Gradients (HOG), Keypoints and Descriptors (SIFT, SURF)
-- **Image Representation**: Convolutional Neural Networks (CNNs), Transfer Learning, Feature Maps
+- **Image Representation**: [Convolutional](https://youtube.com/playlist?list=PLVZqlMpoM6kanmbatydXVhZpu3fkaTcbJ&si=qq9dWdAlIAxePwoF) Neural Networks (CNNs), Transfer Learning, Feature Maps
 - **CV Models**: Object Detection (YOLO, Faster R-CNN), Image Classification (ResNet, VGG), Image Segmentation (U-Net, Mask R-CNN), Image Generation (GANs, VAEs), Stable Diffusion
 - **Model Optimization**: Quantization, Pruning, Knowledge Distillation, Hyperparameter Tuning
 - **Specialized Techniques**: Transfer Learning, Few-Shot Learning, Style Transfer, Image Super-Resolution, Zero-Shot Learning
@@ -733,6 +736,7 @@ As the name suggests, this part focuses on technologies that deal with visual da
 
 📚 **References:**
 
+### Image Preprocessing
 - [Image Preprocessing](https://www.youtube.com/watch?v=kSqxn6zGE0c)
 
 ### Feature extraction
