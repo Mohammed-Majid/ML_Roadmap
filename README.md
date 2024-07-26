@@ -270,7 +270,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 - **Supervised Algorithms**: Linear regression, Logistic regression, Decision trees, Random forests, Support vector machines, k-nearest neighbors
 - **Unsupervised Algorithms**: Clustering (k-Means, Hierarchical), Dimensionality reduction (PCA, t-SNE, LDA), recommenders (collaborative and content-based) and anomaly detection (Variational autoencoders)
 - **Ensemble Methods**: Stacking, Boosting (adaboost, XGboost etc.) and Bagging (bootstrap aggregation)
-- **Reinforcement Learning**: Q-learning, Deep Q-networks
+- **Reinforcement Learning**: Q-learning, Deep Q-networks, Policy gradient methods, RLHF etc..
 - **Extra**: [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
 
 📚 **References:**
@@ -606,7 +606,7 @@ print(predictions)
 
 - [Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
 
-### [Unsupervised learning](Artifacts/cheatsheet-unsupervised-learning.pdf)
+### [Unsupervised Algorithms](Artifacts/cheatsheet-unsupervised-learning.pdf)
 
 **Clustering**
 - [hierarchial clustering](https://www.youtube.com/watch?v=7xHsRkOdVwo)
