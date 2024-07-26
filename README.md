@@ -254,6 +254,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 - **Unsupervised Algorithms**: Clustering (k-Means, Hierarchical), Dimensionality reduction (PCA, t-SNE, LDA), recommenders (collaborative and content-based) and anomaly detection (Variational autoencoders)
 - **Ensemble Methods**: Stacking, Boosting (adaboost, XGboost etc.) and Bagging (bootstrap aggregation)
 - **Reinforcement Learning**: Q-learning, Deep Q-networks
+- **Extra**: [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
 
 📚 **References:**
 <details>
@@ -264,7 +265,6 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 
 </details>
 
-- [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
 <details>
 <summary>model choice cheat sheet</summary>
 
@@ -273,7 +273,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 </details>
 
 <details>
-<summary>Tips & Tricks</summary>
+<summary>Machine learning Tips & Tricks</summary>
 
 [press here](Artifacts/cheatsheet-machine-learning-tips-and-tricks.pdf)
 
