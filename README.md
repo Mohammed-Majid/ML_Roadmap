@@ -263,7 +263,12 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 
 
 </details>
+
 - [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
+<summary>model choice cheat sheet</summary>
+![microsoft-machine-learning-algorithm-cheat-sheet-v7-1](https://github.com/user-attachments/assets/a58e3193-3be8-4e6c-b3dc-3313f7c93817)
+
+</details>
   
 ### Supervised Algorithms
 - [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
@@ -834,7 +839,7 @@ Deploying machine learning models to production.
   - **CI/CD for ML**: Automated Pipelines (enkins, GitLab CI, and CircleCI), Versioning (DVC, MLflow), experiment/metadata tracking (MLflow).
   - **Model Monitoring**: Tracking model performance and detecting [drift](https://www.youtube.com/watch?v=uOG685WFO00) using tools like Prometheus, Grafana, and custom monitoring solutions.
   - **System Design**: [Freecodecamp's video](https://www.youtube.com/watch?v=F2FmTdLtb_4)
-  - **Database design**: [Freecodecamp's video](https://www.youtube.com/watch?v=ztHopE5Wnpc)
+  - **Database design**: [Freecodecamp's video](https://www.youtube.com/watch?v=ztHopE5Wnpc), [Practice SQL](https://sqlbolt.com/)
   - **OCR Libraries**: [Tesseract OCR](https://www.youtube.com/watch?v=PY_N1XdFp4w&t=32s), [EasyOCR](https://www.youtube.com/watch?v=GboDfGzkRsQ)
     
 </details>
