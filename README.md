@@ -156,16 +156,19 @@ The importance of programming is probably self explanatory. Programming skills a
 <details>
 <summary>Basic Pandas cheat sheet</summary>
     
-[pandas_basics.pdf](https://github.com/user-attachments/files/16388036/pandas_basics.pdf)
+<img width="880" alt="Screen Shot 2024-07-26 at 11 27 33 AM" src="https://github.com/user-attachments/assets/e5d5784a-c0c0-4771-a778-130f96f6dc01">
 
 </details>
+
 - [Patrick loeber's Numpy crash course](https://www.youtube.com/watch?v=9JUAPgtkKpI&t=398s)
+
 <details>
 <summary>Basic Numpy cheat sheet</summary>
 
-[numpy_basics.pdf](https://github.com/user-attachments/files/16388052/numpy_basics.pdf)
+<img width="880" alt="Screen Shot 2024-07-26 at 11 28 08 AM" src="https://github.com/user-attachments/assets/945bd494-d8a4-4bd2-809a-e39ed4a18c01">
 
 </details>
+
 - [Neural nine's matplotlib crash course](https://www.youtube.com/watch?v=OZOOLe2imFo)
 
 ### Tools
@@ -256,7 +259,8 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 <details>
 <summary>Basic sk-learn cheat sheet</summary>
     
-[scikit-learn.pdf](https://github.com/user-attachments/files/16388078/scikit-learn.pdf)
+<img width="881" alt="Screen Shot 2024-07-26 at 11 28 48 AM" src="https://github.com/user-attachments/assets/528f11e9-8284-4fdf-84fe-887b9b047621">
+
 
 </details>
 - [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
