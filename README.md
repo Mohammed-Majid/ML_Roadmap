@@ -153,7 +153,19 @@ The importance of programming is probably self explanatory. Programming skills a
 
 ### Essential Libraries
 - [Keith Galli's complete Pandas tutorial](https://youtu.be/2uvysYbKdjM?si=rUAbKPo86p2SQqLW)
+<details>
+<summary>Basic Pandas cheat sheet</summary>
+    
+[pandas_basics.pdf](https://github.com/user-attachments/files/16388036/pandas_basics.pdf)
+
+</details>
 - [Patrick loeber's Numpy crash course](https://www.youtube.com/watch?v=9JUAPgtkKpI&t=398s)
+<details>
+<summary>Basic Numpy cheat sheet</summary>
+
+[numpy_basics.pdf](https://github.com/user-attachments/files/16388052/numpy_basics.pdf)
+
+</details>
 - [Neural nine's matplotlib crash course](https://www.youtube.com/watch?v=OZOOLe2imFo)
 
 ### Tools
@@ -241,7 +253,12 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 - **Reinforcement Learning**: Q-learning, Deep Q-networks
 
 📚 **References:**
+<details>
+<summary>Basic sk-learn cheat sheet</summary>
+    
+[scikit-learn.pdf](https://github.com/user-attachments/files/16388078/scikit-learn.pdf)
 
+</details>
 - [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
   
 ### Supervised Algorithms
@@ -816,4 +833,11 @@ Deploying machine learning models to production.
   - **Database design**: [Freecodecamp's video](https://www.youtube.com/watch?v=ztHopE5Wnpc)
   - **OCR Libraries**: [Tesseract OCR](https://www.youtube.com/watch?v=PY_N1XdFp4w&t=32s), [EasyOCR](https://www.youtube.com/watch?v=GboDfGzkRsQ)
     
+</details>
+<details>
+<summary>extra resources (Books, newsletters etc)</summary>
+- [ML Blogs & Newsletters](https://github.com/josephmisiti/awesome-machine-learning/blob/master/blogs.md)
+- [ML Books](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md)
+- [List of ML courses (free and paid)](https://github.com/josephmisiti/awesome-machine-learning/blob/master/courses.md)
+
 </details>
