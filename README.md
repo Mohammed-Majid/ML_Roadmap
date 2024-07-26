@@ -733,6 +733,9 @@ print(f'Loss: {loss}, Accuracy: {accuracy}')
 
 As the name suggests, this part focuses on technologies that deal with natural langauge (primarily text data).
 
+<img width="798" alt="Screen Shot 2024-07-26 at 2 07 41 PM" src="https://github.com/user-attachments/assets/75ad50f0-80bd-48ac-a48c-3f7631718226">
+
+
 - **Text Preprocessing**: Tokenization, Lemmatization, Stemming, stop-word removal
 - **Text Representation (Feature Extraction)**: N-grams, Bag of Words, TF-IDF, Word Embeddings (Word2Vec, GloVe), FastText, Cosine similarity
 - **NLP Models**: Sentiment analysis, Named entity recognition (NER), Machine translation, Language models etc.
@@ -777,6 +780,9 @@ As the name suggests, this part focuses on technologies that deal with natural l
 ## Computer Vision (CV)
 
 As the name suggests, this part focuses on technologies that deal with visual data (primarily images and video).
+
+<img width="800" alt="Screen Shot 2024-07-26 at 2 06 20 PM" src="https://github.com/user-attachments/assets/ce46fb5c-fee4-46c6-8464-46d0bdd6e94e">
+
 
 - **Image Preprocessing**: Resizing, Normalization, Augmentation, Noise Reduction
 - **Feature Extraction**: Edge Detection, Histograms of Oriented Gradients (HOG), Keypoints and Descriptors (SIFT, SURF)
