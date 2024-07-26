@@ -265,6 +265,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 </details>
 
 - [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
+<details>
 <summary>model choice cheat sheet</summary>
 
 ![microsoft-machine-learning-algorithm-cheat-sheet-v7-1](https://github.com/user-attachments/assets/a58e3193-3be8-4e6c-b3dc-3313f7c93817)
