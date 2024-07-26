@@ -31,7 +31,8 @@
 Statistics can be thought of as the "foundational toolkit" for understanding and interpreting data. It's crucial for tasks like data analysis, building probabilistic models, and evaluating model performance and so on. To build a general intuition for the statistics required for data science, focus on the following areas:
 
 
-<img width="600" alt="Screen Shot 2024-07-26 at 12 06 31 PM" src="https://github.com/user-attachments/assets/7d6c8c8e-2fa1-4074-829e-8fdaaa2a06ec">
+![Illustration-of-a-bivariate-Gaussian-distribution-The-marginal-and-joint-probability_W640](https://github.com/user-attachments/assets/32db0836-d58e-40e5-978a-f8c55539e52a)
+
 
 - **Descriptive Statistics**: Measures of Central Tendency (mean, median, mode), Measures of Dispersion (range, variance, standard deviation).
 - **Inferential Statistics**: Hypothesis testing, Confidence intervals, P-values, t-tests, chi-square tests.
