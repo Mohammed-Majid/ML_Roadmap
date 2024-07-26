@@ -286,6 +286,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 [press here](Artifacts/cheatsheet-supervised-learning.pdf)
 
 </details>
+
 - [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
 <details>
 <summary>Code Example: Linear regression with sk-learn</summary>
