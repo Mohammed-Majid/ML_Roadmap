@@ -872,6 +872,7 @@ Deploying machine learning models to production.
 </details>
 <details>
 <summary>extra resources (Books, newsletters etc)</summary>
+    
 - [ML Blogs & Newsletters](https://github.com/josephmisiti/awesome-machine-learning/blob/master/blogs.md)
 - [ML Books](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md)
 - [List of ML courses (free and paid)](https://github.com/josephmisiti/awesome-machine-learning/blob/master/courses.md)
