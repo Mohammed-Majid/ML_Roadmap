@@ -21,6 +21,7 @@
 - [Deep Learning](#deep-learning)
 - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
 - [Computer Vision (CV)](#computer-vision-cv)
+- [Data Niches](#data-niches)
 - [Deployment](#deployment)
 
 ---
@@ -735,7 +736,7 @@ As the name suggests, this part focuses on technologies that deal with natural l
 - **Text Representation (Feature Extraction)**: N-grams, Bag of Words, TF-IDF, Word Embeddings (Word2Vec, GloVe), FastText, Cosine similarity
 - **NLP Models**: Sentiment analysis, Named entity recognition (NER), Machine translation, Language models etc.
 - **Model Optimization**: Quantization, Pruning, Fine tuning, Prompt tuning
-- **Specialized Techniques**: Zero-shot learning, Few-shot learning, Prompt Engineering, sequence/tree of prompts, self supervised learning, semi-supervised learning, RAG
+- **Specialized Techniques**: Zero-shot learning, Few-shot learning, Prompt Engineering, sequence/tree of prompts, self supervised learning, semi-supervised learning, RAG, topic modeling (LDA, NMF)
 - **Large Language Models(LLMs)**: Working with APIs, local/Open-Source LLMs, huggingface transformers, Langchain etc.
 
 📚 **References:**
@@ -826,6 +827,27 @@ As the name suggests, this part focuses on technologies that deal with visual da
 - [Overview of object tracking](https://supervisely.com/blog/complete-guide-to-object-tracking-best-ai-models-tools-and-methods-in-2023/)
 - [Single & Multiple object tracking](https://www.youtube.com/@multipleobjecttracking1226/playlists)
 - [Video Segmentation](https://www.v7labs.com/blog/video-segmentation-guide#:~:text=Video%20segmentation%20is%20the%20process,texture%2C%20or%20other%20visual%20features.)
+
+---
+
+## Data Niches
+
+This section covers more complex, abstract and niche data types.
+
+- **Time series Data**: Trends, seasonality, noise, cycles, stationarity, decomposition, differencing, autocorrelation, forecasting, libraries (Statsmodels, Prophet, PyFlux etc..) and models (ARIMA, Exponential smoothing, SARIMA etc)
+
+- **Geospatial Data**: Coordinate systems (latitude, longitude), projections, shapefiles, GeoJSON, spatial joins, distance calculations, mapping libraries (GeoPandas, Folium, Shapely, etc.), and spatial analysis techniques (buffering, overlay, spatial clustering, etc.)
+
+- **Network/graph Data**: Graph representation, nodes, edges, adjacency matrices, graph traversal algorithms (BFS, DFS), centrality measures (degree, closeness, betweenness, eigenvector),link measures, community detection, network visualization (NetworkX, Gephi, Cytoscape), deep graph library and PyTorch Geometric
+
+- **Audio Data**: Feature extraction (MFCCs, spectrograms), audio preprocessing (normalization, noise reduction), signal processing, audio classification, libraries (Librosa, PyDub), and techniques (Fourier Transform, Short-Time Fourier Transform)
+
+- **Multimodal Data**: Data integration (e.g., text and images, audio and video), feature fusion, modality alignment, joint representation learning, applications in recommendation systems, multi-modal sentiment analysis, and data fusion techniques.
+
+
+📚 **References:**
+
+**(Yet to add references)**
 
 ---
 
