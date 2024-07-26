@@ -271,8 +271,21 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 ![microsoft-machine-learning-algorithm-cheat-sheet-v7-1](https://github.com/user-attachments/assets/a58e3193-3be8-4e6c-b3dc-3313f7c93817)
 
 </details>
+
+<details>
+<summary>Tips & Tricks</summary>
+
+[press here](Artifacts/cheatsheet-machine-learning-tips-and-tricks.pdf)
+
+</details>
   
 ### Supervised Algorithms
+<details>
+<summary>Supervised learning cheat sheet</summary>
+
+[press here](Artifacts/cheatsheet-supervised-learning.pdf)
+
+</details>
 - [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
 <details>
 <summary>Code Example: Linear regression with sk-learn</summary>
@@ -580,6 +593,13 @@ print(predictions)
 - [Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
 
 ### Unsupervised Algorithms
+
+<details>
+<summary>Unsupervised learning cheat sheet</summary>
+
+[press here](Artifacts/cheatsheet-unsupervised-learning.pdf)
+
+</details>
 
 **Clustering**
 - [hierarchial clustering](https://www.youtube.com/watch?v=7xHsRkOdVwo)
