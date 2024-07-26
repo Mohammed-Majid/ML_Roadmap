@@ -1,4 +1,4 @@
-# Machine Learning Roadmap 
+![Linear_subspaces_with_shading](https://github.com/user-attachments/assets/6c1ca9a4-c4dd-4cb5-ad60-af7ea59815ad)# Machine Learning Roadmap 
 
 **This is a compilation of the resources I gathered while learning the skills required to build machine learning projects**
 
@@ -26,6 +26,9 @@
 ---
 
 ## Statistics
+
+
+<img width="493" alt="Screen Shot 2024-07-26 at 12 06 31 PM" src="https://github.com/user-attachments/assets/7d6c8c8e-2fa1-4074-829e-8fdaaa2a06ec">
 
 Statistics can be thought of as the "foundational toolkit" for understanding and interpreting data. It's crucial for tasks like data analysis, building probabilistic models, and evaluating model performance and so on. To build a general intuition for the statistics required for data science, focus on the following areas:
 
@@ -64,6 +67,197 @@ mode = stats.mode(data)
 
 ## Linear algebra
 
+![Uploading Lin<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="325"
+   height="235.95"
+   id="svg2607"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Kris\My Documents\My Pictures\SVG"
+   sodipodi:docname="Linear-subspace-with-shading.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2609">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 117.975 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="325 : 117.975 : 1"
+       inkscape:persp3d-origin="162.5 : 78.649999 : 1"
+       id="perspective3352" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="142.70649"
+     inkscape:cy="112.44948"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     width="100mm"
+     height="99.999997mm"
+     units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     grid_units="mm"
+     inkscape:grid-points="true"
+     gridtolerance="10000"
+     inkscape:window-width="1124"
+     inkscape:window-height="732"
+     inkscape:window-x="54"
+     inkscape:window-y="9">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0px"
+       originy="0px"
+       spacingx="1mm"
+       spacingy="1mm"
+       color="#0000ff"
+       empcolor="#0000ff"
+       opacity="0.2"
+       empopacity="0.4"
+       empspacing="5"
+       units="mm"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2612">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.92889,-27.636333)">
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995000000010;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 261.34375 56.78125 L 156.6875 127.6875 C 156.74255 127.7643 156.75359 127.86709 156.84375 127.90625 C 157.03281 127.98837 157.25126 127.97962 157.40625 127.84375 L 261.25 57.5 C 261.46935 57.3608 261.56922 57.083325 261.46875 56.84375 C 261.44866 56.795835 261.37518 56.819904 261.34375 56.78125 z "
+       id="path3244"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 157.15625 127.21875 L 58.40625 111.5625 C 58.392262 111.61019 58.3125 111.60422 58.3125 111.65625 C 58.312501 111.93485 58.50345 112.16641 58.78125 112.1875 L 156.53125 127.6875 C 156.82465 127.73065 157.11311 127.51215 157.15625 127.21875 z "
+       id="path3236"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#a4a4a4;fill-opacity:0.80232561;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 304.24139,110.79258 L 171.42889,108.13633 L 106.11639,148.48008 L 202.39764,154.98008 L 304.24139,110.79258 z"
+       id="path3287" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 157.15625 127.21875 C 157.1994 126.92534 156.9809 126.66815 156.6875 126.625 L 58.9375 111.125 C 58.8857 111.11732 58.83305 111.11732 58.78125 111.125 C 58.555335 111.14215 58.467157 111.35486 58.40625 111.5625 L 157.15625 127.21875 z "
+       id="path3806"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995000000010;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 261.34375 56.78125 C 261.21801 56.626632 261.04617 56.484136 260.84375 56.53125 C 260.77566 56.549774 260.71192 56.581641 260.65625 56.625 L 156.8125 126.96875 C 156.62898 127.06258 156.52478 127.23149 156.53125 127.4375 C 156.53464 127.54526 156.62712 127.60327 156.6875 127.6875 L 261.34375 56.78125 z "
+       id="path3784"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#00ac51;fill-opacity:0.80232561;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 182.52264,200.82383 L 232.83514,82.980083 L 168.42889,53.136333 L 116.42889,174.63633 L 182.52264,200.82383 z"
+       id="path3275" />
+    <path
+       style="fill:#a4a4a4;fill-opacity:0.80232561;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 202.39764,154.98008 L 106.11639,148.48008 L 45.92889,185.63633 L 103.36639,197.91758 L 202.39764,154.98008 z"
+       id="path3291" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.02158522999999990;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 157.03125 127.78125 L 157.03125 17.03125 C 157.00748 17.030342 156.99272 16.997539 156.96875 17 C 156.69514 17.022364 156.48812 17.256981 156.5 17.53125 L 156.5 127.28125 C 156.5 127.56602 156.74648 127.78125 157.03125 127.78125 z "
+       id="path3250"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.02158522999999990;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 157.03125 126.8125 C 156.98734 126.81096 156.94999 126.77122 156.90625 126.78125 C 156.66956 126.83076 156.50001 127.03944 156.5 127.28125 L 156.5 219.5 C 156.5 219.78477 156.74648 220 157.03125 220 L 157.03125 126.8125 z "
+       id="path3766"
+       transform="translate(45.92889,27.636333)" />
+    <rect
+       style="fill:#fdff23;fill-opacity:0.80232561;stroke:none;stroke-width:1.29192400000000010;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2421"
+       width="140.14482"
+       height="153.81146"
+       x="172.43365"
+       y="151.67435"
+       transform="matrix(0.9400316,-0.3410873,0,1,0,0)" />
+    <path
+       style="fill:#a4a4a4;fill-opacity:0.80232561;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 304.24139,110.79258 L 202.39764,154.98008 L 322.96014,163.10508 L 370.92889,112.13633 L 304.24139,110.79258 z"
+       id="path3282" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.02158522999999990;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 157.03125 126.8125 L 157.03125 220 C 157.31603 220 157.53125 219.78477 157.53125 219.5 L 157.53125 127.28125 C 157.53188 127.12534 157.4655 126.9724 157.34375 126.875 C 157.25704 126.80563 157.13991 126.81631 157.03125 126.8125 z "
+       id="path2625"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.02158522999999990;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 157.03125 127.78125 C 157.31603 127.78125 157.53125 127.56602 157.53125 127.28125 L 157.53125 17.53125 C 157.53796 17.382812 157.48302 17.227025 157.375 17.125 C 157.28449 17.03952 157.15405 17.03594 157.03125 17.03125 L 157.03125 127.78125 z "
+       id="path3757"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#00ac51;fill-opacity:0.80232561;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 182.52264,200.82383 L 256.42889,230.13633 L 304.42889,116.13633 L 232.83514,82.980083 L 182.52264,200.82383 z"
+       id="path3280" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:4.07480315000000020;stroke-linecap:round;stroke-linejoin:round;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 244.60716,55.30398 L 161.32196,250.2604"
+       id="path3465"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995000000010;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 70.5 186.0625 C 70.555048 186.1393 70.566092 186.24209 70.65625 186.28125 C 70.845298 186.36338 71.06376 186.35462 71.21875 186.21875 L 157.40625 127.84375 C 157.6256 127.70455 157.72547 127.42707 157.625 127.1875 C 157.60491 127.13958 157.53143 127.16365 157.5 127.125 L 70.5 186.0625 z "
+       id="path3775"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 273.0625 145.625 L 156.125 127.0625 C 156.11493 127.10343 156.0625 127.11235 156.0625 127.15625 C 156.0625 127.43485 156.25345 127.66641 156.53125 127.6875 L 272.46875 146.09375 C 272.76215 146.14553 273.04197 145.94965 273.09375 145.65625 C 273.0967 145.63951 273.06113 145.64161 273.0625 145.625 z "
+       id="path3788"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#a4a4a4;fill-opacity:0.80232561;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 202.39764,154.98008 L 103.36639,197.91758 L 258.92889,231.13633 L 322.96014,163.10508 L 202.39764,154.98008 z"
+       id="path3289" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 273.0625 145.625 C 273.08515 145.35046 272.93291 145.08008 272.65625 145.03125 L 156.6875 126.625 C 156.6357 126.61732 156.58305 126.61732 156.53125 126.625 C 156.29723 126.64276 156.17882 126.84371 156.125 127.0625 L 273.0625 145.625 z "
+       id="path3797"
+       transform="translate(45.92889,27.636333)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.06544995000000010;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 70.5 186.0625 L 157.5 127.125 C 157.37426 126.97038 157.20242 126.82789 157 126.875 C 156.93191 126.89352 156.86817 126.92539 156.8125 126.96875 L 70.625 185.34375 C 70.441476 185.43758 70.33728 185.60649 70.34375 185.8125 C 70.347141 185.92026 70.439625 185.97827 70.5 186.0625 z "
+       id="path3372"
+       transform="translate(45.92889,27.636333)" />
+    <g
+       id="g4640"
+       transform="translate(35.067499,-54.293637)" />
+  </g>
+</svg>
+ear_subspaces_with_shading.svg…]()
+
+
 Linear algebra is fundamental for understanding how data is represented and manipulated in machine learning algorithms. It forms the backbone of many ML techniques, especially in deep learning where operations on large matrices are common.
 
 
@@ -76,6 +270,13 @@ Linear algebra is fundamental for understanding how data is represented and mani
 - [3Blue1Brown's "Essence of Linear algebra"](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [MIT Linear algebra course](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k)
 - [Brown University slides & computational applications of linear algebra](https://codingthematrix.com/)
+
+<details>
+<summary>Basic matrix operations illustrated</summary>
+    
+![Matrix-rules](https://github.com/user-attachments/assets/e98a2856-49df-47f3-b0d5-aeb5658c681a)
+
+</details>
 <details>
 <summary>Code Example: Matrix Multiplication in Python</summary>
     
@@ -94,6 +295,9 @@ C = np.dot(A, B)
 ## Calculus 
 
 Calculus is essential for understanding the optimization techniques used in machine learning, particularly for gradient-based learning algorithms.
+
+![matlab](https://github.com/user-attachments/assets/65cb4b6a-15f7-4d46-92a7-e9cef469f250)
+
 
 - **Differential Calculus**: Derivatives, Partial derivatives, Gradients.
 - **Integral Calculus**: Integration, Area under curves, Summations.
