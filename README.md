@@ -1,4 +1,4 @@
-![Linear_subspaces_with_shading](https://github.com/user-attachments/assets/6c1ca9a4-c4dd-4cb5-ad60-af7ea59815ad)# Machine Learning Roadmap 
+# Machine Learning Roadmap
 
 **This is a compilation of the resources I gathered while learning the skills required to build machine learning projects**
 
