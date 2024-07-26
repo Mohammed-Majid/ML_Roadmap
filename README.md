@@ -234,6 +234,9 @@ A simple analogy would be to think of data as the ingredients required to cook a
 
 Before going into machine learning algorithms, it is important to undertand the different terminologies and concepts that underly these algorithms (note that this section only introduces these concepts)
 
+![overfitting-in-machine-learning](https://github.com/user-attachments/assets/091b34e6-656f-4514-89dd-8156b36a20c0)
+
+
 - **Types of Models**: Supervised, Unsupervised, Reinforcement 
 - **Bias and Variance**: Overfitting and Underfitting
 - **Regularization**: L1, L2, Dropout and Early stopping
