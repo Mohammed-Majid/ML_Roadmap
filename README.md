@@ -294,15 +294,11 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 
 </details>
   
-### Supervised Algorithms
-<details>
-<summary>Supervised learning cheat sheet</summary>
+### [Supervised Algorithms](Artifacts/cheatsheet-supervised-learning.pdf)
 
-[press here](Artifacts/cheatsheet-supervised-learning.pdf)
-
-</details>
 
 - [Linear regression](https://www.youtube.com/playlist?list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU)
+  
 <details>
 <summary>Code Example: Linear regression with sk-learn</summary>
 
@@ -608,14 +604,7 @@ print(predictions)
 
 - [Python implementation of ML algorithms (from scratch)](https://www.youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd)
 
-### Unsupervised Algorithms
-
-<details>
-<summary>Unsupervised learning cheat sheet</summary>
-
-[press here](Artifacts/cheatsheet-unsupervised-learning.pdf)
-
-</details>
+### [Unsupervised learning](Artifacts/cheatsheet-unsupervised-learning.pdf)
 
 **Clustering**
 - [hierarchial clustering](https://www.youtube.com/watch?v=7xHsRkOdVwo)
