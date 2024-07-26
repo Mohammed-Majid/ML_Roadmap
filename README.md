@@ -844,6 +844,10 @@ This section covers more complex, abstract and niche data types.
 
 - **Multimodal Data**: Data integration (e.g., text and images, audio and video), feature fusion, modality alignment, joint representation learning, applications in recommendation systems, multi-modal sentiment analysis, and data fusion techniques.
 
+- **Biological Data**: DNA sequences, protein structures, genomic variations, biological networks, molecular dynamics, libraries (Biopython, PySCeS), and techniques (sequence alignment, structural bioinformatics).
+
+- **Astronomical Data**: Star catalogs, galaxy surveys, light curves, cosmic microwave background data, celestial object tracking, libraries (AstroPy, HEAsoft), and techniques (source extraction, cosmic event detection).
+
 
 📚 **References:**
 
