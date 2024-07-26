@@ -69,7 +69,7 @@ mode = stats.mode(data)
 
 Linear algebra is fundamental for understanding how data is represented and manipulated in machine learning algorithms. It forms the backbone of many ML techniques, especially in deep learning where operations on large matrices are common.
 
-![png-transparent-linear-span-space-linear-map-linear-algebra-euclidean-angle-rectangle-triangle](https://github.com/user-attachments/assets/03198f74-ed25-456c-aa97-e6ff6fa83580)
+![Linear_subspaces_with_shading](https://github.com/user-attachments/assets/6c1ca9a4-c4dd-4cb5-ad60-af7ea59815ad)
 
 
 - **Vectors & Vector Spaces**: Addition, subtraction, scalar multiplication, dot products, linear transformations.
