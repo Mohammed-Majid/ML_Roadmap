@@ -38,16 +38,31 @@ Statistics can be thought of as the "foundational toolkit" for understanding and
 - **Inferential Statistics**: Hypothesis testing, Confidence intervals, P-values, t-tests, chi-square tests.
 - **Probability Theory**: Basic probability, Conditional probability, Bayes' theorem.
 - **Distributions**: Normal distribution, Binomial distribution, Poisson distribution.
-- **Bayesian Statistics**: Bayesian inference, Prior and posterior probabilities.
+- **Bayesian Statistics (optional)**: Bayesian inference, Prior and posterior probabilities.
 
 
 📚 **References:**
 
+### General Overview
 - [Stat Quest with Josh Starmer](https://www.youtube.com/user/joshstarmer)
-- [Datatab's guide to statistics for data science](https://www.youtube.com/watch?v=Ym1iH8-GQOE&t=456s)
-- [Zedstatistics](https://www.youtube.com/@zedstatistics/)
+- [Datatab's guide to statistics for data science](https://www.youtube.com/playlist?list=PL-p9JpwN5NNG86XAX-IALibXllMNeYpW7)
 - [Khan Academy](https://www.khanacademy.org/math/statistics-probability/)
 - [Harvard statistics 110](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
+
+### Descriptive Statistics
+- [Zedstatistics](https://www.youtube.com/playlist?list=PLTNMv857s9WVStKLco6ZBOsfSGXzJ1L0f)
+- [Grad Coach's descriptive statistics overview](https://www.youtube.com/watch?v=SplCk-t1BeA&t=20s&ab_channel=GradCoach)
+
+### Inferential Statistics
+- [Khan Academy's Inferential statistics](https://www.youtube.com/playlist?list=PLSQl0a2vh4HDl0hgK8nIBgBjLji5Eu9ar)
+- [Grad Coach's Inferential Statistics overview](https://www.youtube.com/watch?v=6E6pB5JFLgM&ab_channel=GradCoach)
+
+### Distributions
+- [Zedstatistics](https://www.youtube.com/playlist?list=PLTNMv857s9WVzutwxaMb0YZKW7hoveGLS)
+
+### Bayesian Statistics
+- [ritvick math's bayesian statistics overview](https://www.youtube.com/watch?v=-1dYY43DRMA&ab_channel=ritvikmath)
+
 
 <details>
 <summary>Code Example: Calculating Mean, Median, and Mode in Python</summary>
