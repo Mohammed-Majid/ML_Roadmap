@@ -733,6 +733,8 @@ print(f'Loss: {loss}, Accuracy: {accuracy}')
 ```
 </details>
 
+- [Code example: Building a neural network from scratch (Personal Project)](https://github.com/Mohammed-Majid/Image-Classification-NN)
+
 
 - [Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu)
 
