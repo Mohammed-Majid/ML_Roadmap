@@ -878,7 +878,33 @@ This section covers more complex, abstract and niche data types.
 
 📚 **References:**
 
-**(Yet to add references)**
+### Time Series Analysis
+
+- [Time series analysis overview](https://www.youtube.com/playlist?list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3)
+- [Time series analysis overview 2](https://www.youtube.com/playlist?list=PLmPJQXJiMoUVr07-VnwDiki89DqyuSS21)
+
+### Geospastial Data Analysis
+- [Spatial data science intro](https://www.youtube.com/playlist?list=PLzREt6r1NenmFyTw8v2JZpEE4PZGNi5Ht)
+- [Geospatial data analysis](https://www.youtube.com/playlist?list=PLyWyQBSWLw1OF3RGVWToPkqe_pfx4TcPW)
+
+### Network Analysis
+- [Intro to network data analysis](https://www.youtube.com/playlist?list=PLw1OxksNk6iaJrLdvkuY6Y3U4NaJn3GCD)
+
+### Audio Data Analysis
+- [Audio signal processing for machine learning](https://www.youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0)
+- [Rob Mulla's audio data processing video](https://www.youtube.com/watch?v=ZqpSb5p1xQo&ab_channel=RobMulla)
+
+### Multimodal Data Analysis
+- [Multimodal machine learning](https://www.youtube.com/playlist?list=PLki3HkfgNEsKPcpj5Vv2P98SRAT9wxIDa)
+
+### Biological data
+- [Bioinformatics in python](https://www.youtube.com/playlist?list=PLpSOMAcxEB_hD18TAtBrTlRJDyu-PmRbj)
+- [Quantitative biological research in python](https://www.youtube.com/playlist?list=PL0OdA9z6mGN2TjpvvetBIyXZh7sjiK_F-)
+
+### Astronomical data
+-[Python for astronomical data analysis](https://www.youtube.com/watch?v=H9KefzbryEw&t=1296s&ab_channel=freeCodeCamp.org)
+- [Artifical intelligence for lunar exploration](https://www.youtube.com/playlist?list=PL7HQvd_RTCc0stsO2NWXpfeOsWpje_Yjk)
+- [Astronomocal Machine learning guided project](https://www.youtube.com/watch?v=l4Zb3-gI_h8&ab_channel=Spartificial)
 
 ---
 
