@@ -861,6 +861,10 @@ As the name suggests, this part focuses on technologies that deal with visual da
 
 This section covers more complex, abstract and niche data types.
 
+<img width="546" alt="Screen Shot 2024-07-28 at 4 15 54 AM" src="https://github.com/user-attachments/assets/041f7658-12eb-4e85-8823-2cb4edb2bca1">
+
+
+
 - **Time series Data**: Trends, seasonality, noise, cycles, stationarity, decomposition, differencing, autocorrelation, forecasting, libraries (Statsmodels, Prophet, PyFlux etc..) and models (ARIMA, Exponential smoothing, SARIMA etc)
 
 - **Geospatial Data**: Coordinate systems (latitude, longitude), projections, shapefiles, GeoJSON, spatial joins, distance calculations, mapping libraries (GeoPandas, Folium, Shapely, etc.), and spatial analysis techniques (buffering, overlay, spatial clustering, etc.)
