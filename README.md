@@ -174,7 +174,7 @@ print(f"Slope: {w}, Intercept: {b}")
 The importance of programming is probably self explanatory. Programming skills are essential for implementing machine learning algorithms, working with data and everything else (This roadmap mainly focuses on Python).
 
 - **Python**: General syntax, Control flow, Functions, Classes, File handling, Loops and so on.
-- **Libraries**: NumPy, pandas, matplotlib, seaborn, Scikit-learn, OpenCV, NLTK, Spacy, TensorFlow, Keras, PyTorch etc..
+- **Essential Data Libraries**: NumPy, pandas, matplotlib, seaborn, OpenCV, NLTK, Spacy etc...
 - **Tools**: Jupyter Notebooks, git/github, package/environment managers.
 
 📚 **References:**
@@ -183,7 +183,7 @@ The importance of programming is probably self explanatory. Programming skills a
 - [Freecode camp's python for beginners](https://www.youtube.com/watch?v=rfscVS0vtbw&t=3182s)
 - [W3 schools python](https://www.w3schools.com/python/default.asp)
 
-### Essential Libraries
+### Essential Data Libraries
 - [Keith Galli's complete Pandas tutorial](https://youtu.be/2uvysYbKdjM?si=rUAbKPo86p2SQqLW)
 <details>
 <summary>Basic Pandas cheat sheet</summary>
@@ -202,6 +202,8 @@ The importance of programming is probably self explanatory. Programming skills a
 </details>
 
 - [Neural nine's matplotlib crash course](https://www.youtube.com/watch?v=OZOOLe2imFo)
+
+- [Seaborn Tutorial](https://www.youtube.com/playlist?list=PL4GjoPPG4VqOAwSNw2I-PXUcjw1frHmW2)
 
 ### Tools
 - [Conda (package manager) tutorial](https://www.youtube.com/watch?v=sDCtY9Z1bqE)
@@ -289,6 +291,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 - **Unsupervised Algorithms**: Clustering (k-Means, Hierarchical), Dimensionality reduction (PCA, t-SNE, LDA), recommenders (collaborative and content-based) and anomaly detection (Variational autoencoders)
 - **Ensemble Methods**: Stacking, Boosting (adaboost, XGboost etc.) and Bagging (bootstrap aggregation)
 - **Reinforcement Learning**: Q-learning, Deep Q-networks, Policy gradient methods, RLHF etc..
+- **Machine Learning Libraries**: Scikit-learn, Gymnasium (Reinforcement) etc.
 - **Extra**: [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
 
 📚 **References:**
@@ -650,6 +653,10 @@ print(predictions)
 - [Reinforcement learning 101](https://www.youtube.com/playlist?list=PLTl9hO2Oobd9kS--NgVz0EPNyEmygV1Ha)
 - [Reinforcement learning playlist 2](https://www.youtube.com/playlist?list=PLzvYlJMoZ02Dxtwe-MmH4nOB5jYlMGBjr)
 
+### Machine Learning Libraries
+- [Scikit-Learn Tutorial](https://www.youtube.com/watch?v=pqNCD_5r0IU&t=6975s&ab_channel=freeCodeCamp.org)
+- [Gymnasium Tutorial](https://www.youtube.com/watch?v=vufTSJbzKGU&ab_channel=freeCodeCamp.org)
+
 --- 
 
 ## Model Evaluation and Validation
@@ -696,6 +703,7 @@ This is where it gets interesting. Ever wondered how tools like GPT or Midjourne
 - **Transformers**: Text generation, attention mechanism
 - **Autoencoders**: Latent variable representation (encoding/decoding) & feature extraction
 - **Generative Adversarial Networks (GANs)**: Generators & Discriminators
+- **Deep Learning Libraries**: Keras, Tensorflow, Pytorch etc...
 
 📚 **References:**
 
@@ -745,6 +753,11 @@ print(f'Loss: {loss}, Accuracy: {accuracy}')
 - [Transformers](https://www.youtube.com/watch?v=_UVfwBqcnbM&t=38s)
 
 - [Generative adversarial networks (GANs)](https://www.youtube.com/watch?v=8L11aMN5KY8)
+
+### Deep Learning libraries
+- [Keras Tutorial](https://www.youtube.com/watch?v=qFJeN9V1ZsI&t=32s&ab_channel=freeCodeCamp.org)
+- [Tensorflow Tutorial](https://youtube.com/playlist?list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb&si=5crDKJ2p9cnUoQ9J)
+- [Pytorch Tutorial](https://youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&si=c3c62f97GdQdypAz)
 
 
 ---
