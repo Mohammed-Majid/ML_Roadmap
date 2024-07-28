@@ -906,7 +906,7 @@ This section covers more complex, abstract and niche data types.
 - [Quantitative biological research in python](https://www.youtube.com/playlist?list=PL0OdA9z6mGN2TjpvvetBIyXZh7sjiK_F-)
 
 ### Astronomical data
--[Python for astronomical data analysis](https://www.youtube.com/watch?v=H9KefzbryEw&t=1296s&ab_channel=freeCodeCamp.org)
+- [Python for astronomical data analysis](https://www.youtube.com/watch?v=H9KefzbryEw&t=1296s&ab_channel=freeCodeCamp.org)
 - [Artifical intelligence for lunar exploration](https://www.youtube.com/playlist?list=PL7HQvd_RTCc0stsO2NWXpfeOsWpje_Yjk)
 - [Astronomocal Machine learning guided project](https://www.youtube.com/watch?v=l4Zb3-gI_h8&ab_channel=Spartificial)
 
