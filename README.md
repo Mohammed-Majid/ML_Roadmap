@@ -34,7 +34,7 @@ Statistics can be thought of as the "foundational toolkit" for understanding and
 ![Illustration-of-a-bivariate-Gaussian-distribution-The-marginal-and-joint-probability_W640](https://github.com/user-attachments/assets/32db0836-d58e-40e5-978a-f8c55539e52a)
 
 
-- **Descriptive Statistics**: Measures of Central Tendency (mean, median, mode), Measures of Dispersion (range, variance, standard deviation).
+- **Descriptive Statistics**: Measures of Central Tendency (mean, median, mode), Measures of Dispersion (range, variance, standard deviation), skewness and kurtosis.
 - **Inferential Statistics**: Hypothesis testing, Confidence intervals, P-values, t-tests, chi-square tests.
 - **Probability Theory**: Basic probability, Conditional probability, Bayes' theorem.
 - **Distributions**: Normal distribution, Binomial distribution, Poisson distribution.
