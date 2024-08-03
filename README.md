@@ -697,13 +697,14 @@ This is where it gets interesting. Ever wondered how tools like GPT or Midjourne
 ![1_ZXAOUqmlyECgfVa81Sr6Ew](https://github.com/user-attachments/assets/0026e041-c729-42e3-b074-a398d6034156)
 
 
-- **Neural Networks**: architecture, Perceptrons, Activation functions (non-saturated), weights & initialization, optimizers (SGD, RMSprop, Adam etc), cost/loss functions, biases, back/forward propagation, gradient clipping, vanishing/exploding gradients, batch normalization etc..
-- **Convolutional Neural Networks (CNNs)**: convolutional layers, pooling layers, kernels, feature maps
-- **Recurrent Neural Networks and variants (RNNs/LSTMs/GRUs)**: Working with sequential data like audio, text, time series etc..
-- **Transformers**: Text generation, attention mechanism
-- **Autoencoders**: Latent variable representation (encoding/decoding) & feature extraction
-- **Generative Adversarial Networks (GANs)**: Generators & Discriminators
+- **Neural Networks**: architecture, Perceptrons, Activation functions (non-saturated & Saturated), weights & initialization, optimizers (SGD, RMSprop, Adam etc), cost/loss functions, biases, back/forward propagation, gradient clipping, vanishing/exploding gradients, batch normalization etc..
+- **[Convolutional](https://youtube.com/playlist?list=PLVZqlMpoM6kanmbatydXVhZpu3fkaTcbJ&si=qq9dWdAlIAxePwoF) Neural Networks**: convolutional layers, pooling layers, dropout layers, fully connected layers, kernels, feature maps, stride, padding
+- **Recurrent Neural Networks and variants (RNNs/LSTMs/GRUs)**: recurrent units, hidden states, Back propagation through time, LSTMs (Cell State, Input Gate, Forget Gate, output Gate), GRUs (Update Gate, Reset Gate).
+- **Transformers**: encoder-decoder, self attention, multi-head attention, positional encoding.
+- **Autoencoders**: Latent variable representation (encoding/decoding), feature extraction and common types (Denoising, sparse, variational)
+- **Generative Adversarial Networks (GANs)**: Generators, Discriminators and common GAN types (Conditional & cycle)
 - **Deep Learning Libraries**: Keras, Tensorflow, Pytorch etc...
+- **Training Time Optimization**: Correct choice of kernel/weight initializer for activation function (eg: Glorot + sigmoid/tanh or He + Relu etc..), mitigating internal covariate shift using normalization (Batch normalization, layer, instance, group etc..), learning rate scheduling (decay strategies, warmup, adaptive learning rates and dynamic adjustments, etc..)
 
 📚 **References:**
 
@@ -743,7 +744,6 @@ print(f'Loss: {loss}, Accuracy: {accuracy}')
 
 - [Code example: Building a neural network from scratch (Personal Project)](https://github.com/Mohammed-Majid/Image-Classification-NN)
 
-
 - [Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu)
 
 - [Recurrent Neural Networks](https://www.youtube.com/playlist?list=PLuhqtP7jdD8ARBnzj8SZwNFhwWT89fAFr)
@@ -769,8 +769,8 @@ As the name suggests, this part focuses on technologies that deal with natural l
 <img width="798" alt="Screen Shot 2024-07-26 at 2 07 41 PM" src="https://github.com/user-attachments/assets/75ad50f0-80bd-48ac-a48c-3f7631718226">
 
 
-- **Text Preprocessing**: Tokenization, Lemmatization, Stemming, stop-word removal
-- **Text Representation (Feature Extraction)**: N-grams, Bag of Words, TF-IDF, Word Embeddings (Word2Vec, GloVe), FastText, Cosine similarity
+- **Text Preprocessing**: Tokenization (word, subword, character), Lemmatization, Stemming, stop-word removal
+- **Text Representation (Feature Extraction)**: N-grams (Bi-grams, Tri-grams), Bag of Words (Count Vectors, Binary Vectors), TF-IDF, Word Embeddings (Word2Vec, GloVe, FastText), Cosine similarity
 - **NLP Models**: Sentiment analysis, Named entity recognition (NER), Machine translation, Language models etc.
 - **Model Optimization**: Quantization, Pruning, Fine tuning, Prompt tuning
 - **Specialized Techniques**: Zero-shot learning, Few-shot learning, Prompt Engineering, sequence/tree of prompts, self supervised learning, semi-supervised learning, RAG, topic modeling (LDA, NMF)
@@ -817,14 +817,14 @@ As the name suggests, this part focuses on technologies that deal with visual da
 <img width="800" alt="Screen Shot 2024-07-26 at 2 06 20 PM" src="https://github.com/user-attachments/assets/ce46fb5c-fee4-46c6-8464-46d0bdd6e94e">
 
 
-- **Image Preprocessing**: Resizing, Normalization, Augmentation, Noise Reduction
-- **Feature Extraction**: Edge Detection, Histograms of Oriented Gradients (HOG), Keypoints and Descriptors (SIFT, SURF)
-- **Image Representation**: [Convolutional](https://youtube.com/playlist?list=PLVZqlMpoM6kanmbatydXVhZpu3fkaTcbJ&si=qq9dWdAlIAxePwoF) Neural Networks (CNNs), Transfer Learning, Feature Maps
-- **CV Models**: Object Detection (YOLO, Faster R-CNN), Image Classification (ResNet, VGG), Image Segmentation (U-Net, Mask R-CNN), Image Generation (GANs, VAEs), Stable Diffusion
+- **Image Preprocessing**: Resizing, Normalization, Augmentation, Noise Reduction (Gaussian blurring, median filtering, bilateral filtering)
+- **Feature Extraction**: Edge Detection, Histograms of Oriented Gradients (HOG), Keypoints and Descriptors (SIFT, SURF, LBP), Frequency domain representation (Forrier transform & Wavelet transofrm), texture analysis (Co-occurrence Matrices, Gabor Filters), dimensionality reduction 
+- **Image Representation**: Pixel values (Grey scale, RGB, multichannel, normalization), Color spaces, Feature maps (convolutional features, activation maps, pooled features)
+- **CV Models**: Object Detection (YOLO, Faster R-CNN, MobileNet), Image Classification (ResNet, VGG), Image Segmentation (U-Net, Mask R-CNN), Image Generation (GANs, VAEs), Stable Diffusion
 - **Model Optimization**: Quantization, Pruning, Knowledge Distillation, Hyperparameter Tuning
-- **Specialized Techniques**: Transfer Learning, Few-Shot Learning, Style Transfer, Image Super-Resolution, Zero-Shot Learning
+- **Specialized Techniques**: Transfer Learning, Few-Shot Learning, Style Transfer, Image Super-Resolution, Zero-Shot Learning, One-shot Learning
 - **Advanced Topics**:
-  - **3D Vision**: Depth Estimation, 3D Reconstruction, and Stereo Vision.
+  - **3D Vision**: Depth Estimation, Heat Maps, 3D Reconstruction, and Stereo Vision.
   - **Video Analysis**: Action Recognition, Object Tracking, Video Segmentation.
 - **Working with APIs and Tools**: OpenCV, TensorFlow, PyTorch, Pre-trained Models, Deployment (ONNX, TensorRT)
 
