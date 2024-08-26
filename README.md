@@ -291,7 +291,7 @@ The statistical learning algorithms that do all the work we associate "Ai" with
 - **Unsupervised Algorithms**: Clustering (k-Means, Hierarchical), Dimensionality reduction (PCA, t-SNE, LDA), recommenders (collaborative and content-based) and anomaly detection (Variational autoencoders)
 - **Ensemble Methods**: Stacking, Boosting (adaboost, XGboost etc.) and Bagging (bootstrap aggregation)
 - **Reinforcement Learning**: Q-learning, Deep Q-networks, Policy gradient methods, RLHF etc..
-- **Machine Learning Libraries**: Scikit-learn, Gymnasium (Reinforcement) etc.
+- **Machine Learning Libraries**: Scikit-learn, Scikit-surprise (recommenders), Gymnasium (Reinforcement) etc.
 - **Extra**: [Choosing a model](https://youtube.com/playlist?list=PLVZqlMpoM6kaeaNvBTyoKdhMpOZzXu6AS&si=EBnWyp1PNv3STXSv)
 
 📚 **References:**
