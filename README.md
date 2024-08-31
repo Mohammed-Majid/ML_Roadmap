@@ -4,8 +4,6 @@
 
 **I originally made this to serve as a roadmap for me to follow; but I then thought, why not make it publicly viewable? It is still a work in progress since I am continuously learning new skills, and it is by no means an exhaustive list. Anyways, hope you have fun with this repo!**
 
-**PS: This is targeted at individuals that already understand basic programming concepts and things like version control.**
-
 **🔗 Connect with me:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Mohamed-Al-Mamari) 
 
 ## Topics of Study
