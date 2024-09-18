@@ -820,7 +820,7 @@ As the name suggests, this part focuses on technologies that deal with visual da
 - **Image Preprocessing**: Resizing, Normalization, Augmentation, Noise Reduction (Gaussian blurring, median filtering, bilateral filtering)
 - **Feature Extraction**: Edge Detection, Histograms of Oriented Gradients (HOG), Keypoints and Descriptors (SIFT, SURF, LBP), Frequency domain representation (Forrier transform & Wavelet transofrm), texture analysis (Co-occurrence Matrices, Gabor Filters), dimensionality reduction 
 - **Image Representation**: Pixel values (Grey scale, RGB, multichannel, normalization), Color spaces, Feature maps (convolutional features, activation maps, pooled features)
-- **CV Models**: Object Detection (YOLO, Faster R-CNN, MobileNet), Image Classification (ResNet, VGG), Image Segmentation (U-Net, Mask R-CNN), Image Generation (GANs, VAEs), Stable Diffusion
+- **CV Models**: Image Classification (ResNet, VGG), Object Detection (YOLO, Faster R-CNN, MobileNet), Image Segmentation (U-Net, Mask R-CNN), Semantic Segmentation (Mask R-CNN), Instance Segmentation (Mask R-CNN) Panoptic Segmentation (Panoptic FPN) Image Generation (GANs, VAEs, Stable Diffusion), Image Captioning (Show and Tell, Show, Attend and Tell, Image Transformer).
 - **Model Optimization**: Quantization, Pruning, Knowledge Distillation, Hyperparameter Tuning
 - **Specialized Techniques**: Transfer Learning, Few-Shot Learning, Style Transfer, Image Super-Resolution, Zero-Shot Learning, One-shot Learning
 - **Advanced Topics**:
