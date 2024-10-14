@@ -827,6 +827,7 @@ As the name suggests, this part focuses on technologies that deal with visual da
   - **3D Vision**: Depth Estimation, Heat Maps, 3D Reconstruction, and Stereo Vision.
   - **Video Analysis**: Action Recognition, Object Tracking, Video Segmentation.
 - **Working with APIs and Tools**: OpenCV, TensorFlow, PyTorch, Pre-trained Models, Deployment (ONNX, TensorRT)
+- **Extras**: [Here's my take on CNNs](https://medium.com/@mohammed-majid/beyond-the-surface-decoding-the-mechanics-of-convolutional-neural-networks-cnns-a3ee2e5f37c4)
 
 📚 **References:**
 
